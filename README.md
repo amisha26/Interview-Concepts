@@ -5,7 +5,6 @@
  * [Big-O Notation](#Big-ONotation)
  * [Binary Tree](#BinaryTree)
  * [Bit Manipulation](#BitManipulation)
- * [Blockchain](#Blockchain)
  * [Brain Teasers](#BrainTeasers)
  * [Divide & Conquer](#Divide&Conquer)
  * [Dynamic Programming](#DynamicProgramming)
