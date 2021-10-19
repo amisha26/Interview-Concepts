@@ -36,7 +36,7 @@ An **array** is a collection of **homogeneous** (same type) data items stored in
 * <code><i>O</i>(<i>2</i><sup>n</sup>)</code>
 * <code><i>O</i>(<i>n!</i>)</code>
 
-**Source:** _beginnersbook.com_
+
 
 #### Q2: Name some characteristics of Array Data Structure ⭐
 **Answer:**
@@ -45,7 +45,7 @@ Arrays are:
 * **Order** -All the elements are stored one by one , in contiguous  location of computer memory in a linear order and fashion
 * **Homogenous** - All  the elements of an array are of  same  data types only  and hence  it is termed as collection of homogenous
 
-**Source:** _codelack.com_
+
 
 #### Q3: Name some advantages and disadvantages of Arrays ⭐⭐
 **Answer:**
@@ -57,7 +57,7 @@ Arrays are:
 * **Fixed size**. You need to specify how many elements you're going to store in your array ahead of time.
 * **Costly inserts and deletes**. You have to shift the other elements to fill in or close gaps, which takes worst-case `O(n)` time.
 
-**Source:** _www.interviewcake.com_
+
 
 #### Q4: What is time complexity of basic Array operations? ⭐⭐
 **Answer:**
@@ -73,7 +73,7 @@ Array uses continuous memory locations (**space** complexity `O(n)`) to store th
 |Search	   |`O(n)`	        |`O(n)`
 
 
-**Source:** _beginnersbook.com_
+
 
 #### Q5: What is a main difference between an Array and a Dictionary? ⭐⭐
 **Answer:**
@@ -85,7 +85,7 @@ Arrays and dictionaries both store collections of data, but differ by _how they 
 
 This makes array/lists more suitable when you have a group of objects in a set (prime numbers, colors, students, etc.). Dictionaries are better suited for showing relationships between a pair of objects.
 
-**Source:** _stackoverflow.com_
+
 
 #### Q6: What are Dynamic Arrays? ⭐⭐
 **Answer:**
@@ -93,7 +93,6 @@ A **dynamic array** is an array with a big improvement: _automatic resizing_.
 
 One limitation of arrays is that they're _fixed_ size, meaning you need to specify the number of elements your array will hold ahead of time. A dynamic array expands as you add more elements. So you don't need to determine the size ahead of time.
 
-**Source:** _www.interviewcake.com_
 
 #### Q7: How do Dynamic Arrays work? ⭐⭐
 **Answer:**
@@ -119,29 +118,21 @@ delete[] foo;
 
 #### Q8: What is an Associative Array? 
 
-
 #### Q9: What are time complexities of sorted array operations? 
-
 
 #### Q10: What does Sparse Array mean? 
 
-
 #### Q11: When to use a Linked List over an Array/Array List? 
 
-
 #### Q12: Compare Array based vs Linked List stack implementations 
-
 
 #### Q13: How exactly indexing works in Arrays? 
 
 #### Q14: What are advantages of Sorted Arrays? 
 
-
 #### Q15: What is the advantage of Heaps over Sorted Arrays? 
 
-
 #### Q16: How to merge two sorted Arrays into a Sorted Array? 
-
 
 #### Q17: What defines the dimensionality of an Array? 
 
@@ -151,9 +142,7 @@ delete[] foo;
 
 #### Q20: How to implement 3 Stacks with one Array? 
 
-
 #### Q21: Check for balanced parentheses in linear time using constant space 
-
 
 <hr>
 
