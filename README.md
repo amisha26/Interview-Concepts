@@ -1197,23 +1197,16 @@ A **Binary Heap** is a _Binary Tree_ with following properties:
 ```
 
 
-#### Q6: What is the advantage of Heaps over Sorted Arrays? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: What is the advantage of Heaps over Sorted Arrays? 
 
-#### Q7: Explain how Heap Sort works ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: Explain how Heap Sort works 
 
-#### Q8: When would you want to use a Heap? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: When would you want to use a Heap? 
 
-#### Q9: Name some ways to implement Priority Queue ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: Name some ways to implement Priority Queue 
 
-#### Q10: Compare Heaps vs Arrays to implement Priority Queue ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Compare Heaps vs Arrays to implement Priority Queue 
 
-#### Q11: What is the difference between Heap and Red-Black Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: What is the difference between Heap and Red-Black Tree? ⭐
 
-#### Q12: Explain how to find 100 largest numbers out of an array of 1 billion numbers ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Explain how to find 100 largest numbers out of an array of 1 billion numbers ⭐
