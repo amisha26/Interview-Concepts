@@ -1435,7 +1435,6 @@ Queue, as the name suggests is used whenever we need to manage any group of obje
 * In real life scenario, Call Center phone systems uses Queues to hold people calling them in an order, until a service representative is free.
 * Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive i.e First come first served.
 
-**Source:** _www.studytonight.com_
 
 #### Q2: What is Queue? ⭐
 **Answer:**
@@ -1443,8 +1442,6 @@ A **queue** is a container of objects (a _linear_ collection) that are inserted 
 
 ![](https://user-images.githubusercontent.com/13550565/85218641-9d2f9e80-b3ce-11ea-8c1b-a9c058057a70.png)
 
-
-**Source:** _www.cs.cmu.edu_
 
 #### Q3: Why and when should I use Stack or Queue data structures instead of Arrays/Lists? ⭐⭐
 **Answer:**
@@ -1457,7 +1454,6 @@ More practically you should:
 * Use a stack when you want to get things out in the reverse order than you put them in (LIFO)
 * Use a list when you want to get anything out, regardless of when you put them in (and when you don't want them to automatically be removed).
 
-**Source:** _stackoverflow.com_
 
 #### Q4: What is Complexity Analysis of Queue operations?  ⭐⭐
 **Answer:**
@@ -1466,7 +1462,6 @@ More practically you should:
 * Inserting into a queue, by definition, can only happen at the back of the queue, similar to someone getting in line for a delicious Double-Double burger at In 'n Out. Assuming an efficient queue implementation, queue **insertion** is <code><i>O</i>(<i>1</i>)</code>.
 * Deleting from a queue happens at the front of the queue. Assuming an efficient queue implementation, queue **deletion** is `<code><i>O</i>(<i>1</i>)</code>.
 
-**Source:** _github.com_
 
 #### Q5: What are some types of Queue? ⭐⭐
 **Answer:**
@@ -1501,8 +1496,6 @@ More practically you should:
 
 ![](https://i.imgur.com/vyHyffe.png)
 
- 
-**Source:** _www.ques10.com_
 
 #### Q6: Implement Stack using Two Queues (with efficient `push`) ⭐⭐
 **Details:**
@@ -1518,7 +1511,6 @@ Given we have `queue1` and `queue2`:
   - while size of `queue1` is bigger than 1, pipe (dequeue + enqueue) dequeued items from `queue1` into `queue2`
   - dequeue and return the last item of `queue1`, then switch the names of `queue1` and `queue2`
 
-**Source:** _stackoverflow.com_
 
 #### Q7: Implement a Queue using two Stacks ⭐⭐
 **Details:**
@@ -1536,7 +1528,6 @@ Keep two stacks, let's call them `inbox` and `outbox`.
  - If `outbox` is empty, refill it by popping **each** element from `inbox` and pushing it onto `outbox`
  - Pop and return the top element from `outbox`
 
-**Source:** _stackoverflow.com_
 
 #### Q8: What are benefits of Circular Queue? ⭐⭐⭐
 Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
