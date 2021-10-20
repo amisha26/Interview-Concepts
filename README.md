@@ -1009,13 +1009,9 @@ A **hash table** (hash map) is a data structure that implements an **associative
 ![](https://i.stack.imgur.com/0yjYd.png)
 
 
-**Source:** _en.wikipedia.org_
-
 #### Q2: What is Hashing? ⭐⭐
 **Answer:**
 **Hashing** is the practice of using **an algorithm (or hash function)** to map data of _any_ size to a _fixed_ length. This is called a hash value (or sometimes hash code or hash sums or even a hash digest if you’re feeling fancy). In hashing, keys are converted into _hash values_ or _indexes_ by using **hash functions**. Hashing is a one-way function.
-
-**Source:** _www.thesslstore.com_
 
 #### Q3: Explain what is Hash Value? ⭐⭐
 **Answer:**
@@ -1024,7 +1020,6 @@ A **Hash Value** (also called as Hashes or Checksum) is a string value (of speci
 1. Indexing for Hash Tables
 2. Determine the Integrity of any Data (which can be a file, folder, email, attachments, downloads etc).
 
-**Source:** _www.omnisecu.com_
 
 #### Q4: What is the space complexity of a Hash Table? ⭐⭐
 **Answer:**
@@ -1032,7 +1027,6 @@ The space complexity of a datastructure indicates how much space it occupies in 
 
 A **hashtable** typically has a space complexity of `O(n)`.
 
-**Source:** _stackoverflow.com_
 
 #### Q5: Define what is a Hash Function? ⭐⭐
 **Answer:**
@@ -1048,7 +1042,6 @@ Some properties of Hash Functions are:
 * Hard to find collisions (different data with same hash)
 * Implementation is based on parity-preserving bit operations (XOR and ADD), multiply, or divide. 
 
-**Source:** _en.wikipedia.org_
 
 #### Q6: Detect if a List is Cyclic using Hash Table ⭐⭐
 **Answer:**
@@ -1058,7 +1051,6 @@ To detect if a list is cyclic, we can check whether a node had been visited befo
 
 We go through each node one by one and record each node's reference (or memory address) in a hash table. If the current node is `null`, we have reached the end of the list and it must not be cyclic. If current node’s reference is in the hash table, then return true.
 
-**Source:** _leetcode.com_
 
 #### Q7: What is the significance of load factor of a Hash Table?
 
