@@ -1602,19 +1602,14 @@ A(x) {
 }
 ```
 
-**Source:** _stackoverflow.com_
 
-#### Q5: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
 
-#### Q6: Convert a Binary Tree to a Doubly Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work?
 
-#### Q7: How to use Memoization for N-th Fibonacci number?  ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: Convert a Binary Tree to a Doubly Linked List
 
-#### Q8: How to recursively reverse a Linked List? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: How to use Memoization for N-th Fibonacci number?  
 
-#### Q9: Is it always possible to write a non-recursive form for every Recursive function? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: How to recursively reverse a Linked List? 
+
+#### Q9: Is it always possible to write a non-recursive form for every Recursive function? 
