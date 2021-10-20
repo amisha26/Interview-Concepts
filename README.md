@@ -146,3 +146,183 @@ delete[] foo;
 <hr>
 
 ## [[⬆]](#toc) <a name=Backtracking>Backtracking</a> Interview Questions
+
+
+#### Q1: What is Backtracking? ⭐
+**Answer:**
+**Backtracking** is a systematic way of trying out different sequences of decisions until we find one that "works." Backtracking does not generate all possible solutions first and checks later. It tries to generate a solution and as soon as even one constraint fails, the solution is rejected and the next solution is tried.
+
+Backtracking can be understood as as searching os a tree for a particular "goal" leaf node. Backtracking in that case is a **depth-first search** with any bounding function. All solution using backtracking is needed to satisfy a complex set of constraints.
+
+
+![](https://static.javatpoint.com/tutorial/daa/images/backtracking-introduction.png)
+
+
+**Source:** _www.javatpoint.com_
+
+#### Q2: What is the difference between Backtracking and Recursion? ⭐⭐
+**Answer:**
+* **Recursion** describes the calling of the _same function_ that you are in. The typical example of a recursive function is the factorial. You always need a condition that makes recursion stop (base case). 
+* **Backtracking** is when the algorithm makes an opportunistic decision<sup>*</sup>, which may come up to be wrong. If the decision was wrong then the backtracking algorithm restores the state before the decision. It builds candidates for the solution and abandons those which cannot fulfill the conditions. A typical example for a task to solve would be the _Eight Queens Puzzle_. Backtracking is also commonly used within _Neuronal Networks_. Many times backtracking is not implemented recursively. If backtracking uses recursion its called **Recursive Backtracking**
+
+P.S. <sup>*</sup> **Opportunistic decision** making refers to a process where a person or group assesses alternative actions made possible by the favorable convergence of immediate circumstances recognized **without** reference to any **general plan**.
+
+**Source:** _www.quora.com_
+
+#### Q3: Why is this called Backtracking? ⭐⭐
+**Answer:**
+1. Using Backtracking you built a **solution** (that is a structure where every variable is assigned a value).
+2. It is however possible that during construction, you realize that the solution is **not successful** (does not satisfy certain constraints), then you **backtrack**: you _undo_ certain assignments of values to variables in order to reassign them.
+
+Like when looking for a book  because at first you check drawers in the first room, but it's not found, so you _backtrack_ out of the first room to check the drawers in the next room. It's also called **Trial & Error**.
+
+
+#### Q4: What is Exhaustive Search? ⭐⭐
+**Answer:**
+**Exhaustive Search** is an algorithmic technique in which first all possible solutions are generated first and then we select the most feasible solution by applying some rules. Since it follows the most naive approach, it is a.k.a **Brute-Force Search**. This approach is one of the **most expensive** algorithmic techniques, mainly in terms of time complexity. It is also, therefore, one of the most **naive** ones.
+
+**Source:** _afteracademy.com_
+
+#### Q5: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? 
+
+
+#### Q6: Find all the Permutations of a String 
+
+
+#### Q7: What is the difference between Backtracking and Exhaustive Search techniques? 
+
+
+#### Q8: Explain what is Explicit and Implicit Backtracking Constrains? ⭐
+
+
+## [[⬆]](#toc) <a name=Big-ONotation>Big-O Notation</a> Interview Questions
+#### Q1: What is _Big O_ notation? ⭐
+**Answer:**
+**Big-O** notation (also called "asymptotic growth" notation) is a relative representation of the complexity of an algorithm. It shows how an algorithm *scales* based on input size. We use it to talk about how thing _scale_. Big O complexity can be visualized with this graph:
+
+
+![](https://i.stack.imgur.com/WcBRI.png)
+
+
+
+#### Q2: Provide an example of <code><i>O</i>(<i>1</i>)</code> algorithm ⭐
+**Answer:**
+Say we have an array of `n` elements:
+
+```cs
+int array[n];
+```
+
+If we wanted to access the first (or any) element of the array this would be <code><i>O</i>(<i>1</i>)</code> since it doesn't matter how big the array is, it always takes the same constant time to get the first item:
+```cs
+x = array[0];
+```
+
+
+#### Q3: What is Worst Case? ⭐⭐
+**Answer:**
+Big-O is often used to make statements about functions that measure the worst case behavior of an algorithm. **Worst case** analysis gives the maximum number of basic operations that have to be performed during execution of the algorithm. It assumes that the input is in the _worst possible state_ and maximum work has to be done to put things right.
+
+
+#### Q4: What the heck does it mean if an operation is <code><i>O</i>(<i>log n</i>)</code>? ⭐⭐
+**Answer:**
+**<code><i>O</i>(<i>log n</i>)</code>** means for every element, you're doing something that only needs to look at **log N** of the elements. This is usually because you know something about the elements that let you make an _efficient choice_ (for example to reduce a _search space_). 
+The most common attributes of logarithmic running\-time function are that:
+*   the choice of the next element on which to perform some action is one of several possibilities, and
+*   only one will need to be chosen
+
+or
+
+*   the elements on which the action is performed are digits of `n`
+
+Most efficient sorts are an example of this, such as **merge sort**. ​It is `O(log n)` when we do divide and conquer type of algorithms e.g binary search. Another example is **quick sort** where each time we divide the array into two parts and each time it takes `O(N)` time to find a pivot element. Hence it `N O(log N)`
+
+Plotting `log(n)` on a plain piece of paper, will result in a graph where the rise of the curve decelerates as `n` increases:
+![](https://i.stack.imgur.com/qPNNp.png)
+
+
+
+#### Q5: Why do we use Big O notation to compare algorithms?  ⭐⭐
+**Answer:**
+The fact is it's difficult to determine the exact runtime of an algorithm. It depends on the speed of the computer processor. So instead of talking about the runtime directly, we use Big O Notation to talk about _how quickly the runtime grows_ depending on input size.
+
+With Big O Notation, we use the size of the input, which we call `n`. So we can say things like the runtime grows “on the order of the size of the input” (<code><i>O</i>(<i>n</i>)</code>) or “on the order of the square of the size of the input” (<code><i>O</i>(<i>n</i><sup>2</sup>)</code>). Our algorithm may have steps that seem expensive when `n` is small but are eclipsed eventually by other steps as `n` gets larger. For Big O Notation analysis, we care more about the stuff that grows fastest as the input grows, because everything else is quickly eclipsed as `n` gets very large.
+
+
+#### Q6: What exactly would an <code><i>O</i>(<i>n</i><sup>2</sup>)</code> operation do? ⭐⭐
+**Answer:**
+**<code><i>O</i>(<i>n</i><sup>2</sup>)</code>** means for every element, you're doing something with _every_ other element, such as comparing them. Bubble sort is an example of this.
+
+
+#### Q7: What is complexity of this code snippet? ⭐⭐
+**Details:**
+Let's say we wanted to find a number in the list:
+```js
+for (int i = 0; i < n; i++){
+    if(array[i] == numToFind){ return i; }
+}
+```
+What will be the time complexity (Big O) of that code snippet?
+
+**Answer:**
+This would be <code><i>O</i>(<i>n</i>)</code> since at most we would have to look through the entire list to find our number. The Big-O is still <code><i>O</i>(<i>n</i>)</code> even though we might find our number the first try and run through the loop once because Big-O describes the upper bound for an algorithm.
+
+
+#### Q8: What is complexity of `push` and `pop` for a Stack implemented using a LinkedList? ⭐⭐
+**Answer:**
+<code><i>O</i>(<i>1</i>)</code>. Note, you don't have to insert at the end of the list. If you insert at the front of a (singly-linked) list, they are both `O(1)`.
+
+Stack contains 1,2,3:
+
+```py
+[1]->[2]->[3]
+```
+
+Push 5:
+
+```js
+[5]->[1]->[2]->[3]
+```
+
+Pop:
+
+```js
+[1]->[2]->[3] // returning 5
+```
+
+
+#### Q9: Explain the difference between _`O(1)`_ vs _`O(n)`_ space complexities  ⭐⭐
+**Answer:**
+Let's consider a traversal algorithm for traversing a list.
+
+* <code><i>O</i>(<i>1</i>)</code> denotes _constant_ space use: the algorithm allocates the same number of pointers irrespective to the list size. That will happen if we move (reuse) our pointer along the list.
+* In contrast, <code><i>O</i>(<i>n</i>)</code> denotes _linear_ space use: the algorithm space use grows together with respect to the input size `n`. That will happen if let's say for some reason the algorithm needs to allocate 'N' pointers (or other variables) when traversing a list.
+
+
+#### Q10: What is an algorithm? 
+
+
+#### Q11: What is complexity of this code snippet? 
+
+#### Q12: What is the time complexity for "Hello, World" function? 
+
+#### Q13: What is meant by "Constant Amortized Time" when talking about time complexity of an algorithm? 
+
+#### Q14: Why do we use Big O instead of Big Theta (Θ)? 
+
+#### Q15: Name some types of Big O complexity and corresponding algorithms 
+
+#### Q16: What is complexity of "Reading a Book"? 
+
+#### Q17: Explain your understanding of "Space Complexity" with examples 
+
+#### Q18: What is the difference between Lower bound and Tight bound? 
+
+#### Q19: What does it mean if an operation is <code><i>O</i>(<i>n!</i>)</code>? 
+
+#### Q20: Provide an example of algorithm with time complexity of <code><i>O</i>(<i>c</i><sup>k</sup>)</code>? 
+
+#### Q21: What are some algorithms which we use daily that has _`O(1)`_, _`O(n log n)`_ and _`O(log n)`_ complexities? 
+
+#### Q22: What is the big O notation of this function? 
+
