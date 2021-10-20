@@ -1386,89 +1386,60 @@ This isn't terribly efficient, by the way, but it would in fact work.
 
 **Source:** _stackoverflow.com_
 
-#### Q15: Why does linked list delete and insert operation have complexity of _`O(1)`_? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: Why does linked list delete and insert operation have complexity of _`O(1)`_?
 
-#### Q16: When to use a Linked List over an Array/Array List? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: When to use a Linked List over an Array/Array List?
 
-#### Q17: Floyd's Cycle Detect Algorithm: Remove Cycle (Loop) from a Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: Floyd's Cycle Detect Algorithm: Remove Cycle (Loop) from a Linked List
 
-#### Q18: Compare Array based vs Linked List stack implementations ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: Compare Array based vs Linked List stack implementations
 
-#### Q19: Floyd's Cycle Detect Algorithm: Explain how to find a starting node of a Cycle in a Linked List? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: Floyd's Cycle Detect Algorithm: Explain how to find a starting node of a Cycle in a Linked List?
 
-#### Q20: Floyd's Cycle Detect Algorithm: How to detect a Cycle (or Loop) in a Linked List? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q20: Floyd's Cycle Detect Algorithm: How to detect a Cycle (or Loop) in a Linked List?
 
-#### Q21: When is a loop in a Linked List useful? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q21: When is a loop in a Linked List useful?
 
-#### Q22: Implement Double Linked List from Stack with min complexity ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q22: Implement Double Linked List from Stack with min complexity
 
-#### Q23:  Split the Linked List into `k` consecutive linked list "parts" ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q23:  Split the Linked List into `k` consecutive linked list "parts"
 
-#### Q24: Remove duplicates from an unsorted Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q24: Remove duplicates from an unsorted Linked List
 
-#### Q25: Sum two numbers represented as Linked Lists ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q25: Sum two numbers represented as Linked Lists
 
-#### Q26: Find similar elements from two Linked Lists and return the result as a Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q26: Find similar elements from two Linked Lists and return the result as a Linked List
 
-#### Q27: How to find _`Nth`_ element from the end of a singly Linked List? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q27: How to find _`Nth`_ element from the end of a singly Linked List?
 
-#### Q28: When should I use a List vs a LinkedList? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q28: When should I use a List vs a LinkedList?
 
-#### Q29: Merge two sorted singly Linked Lists without creating new nodes ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q29: Merge two sorted singly Linked Lists without creating new nodes
 
-#### Q30: Convert a Binary Tree to a Doubly Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q30: Convert a Binary Tree to a Doubly Linked List
 
-#### Q31: How would you compare Dynamic Arrays with Linked Lists and vice versa?  ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q31: How would you compare Dynamic Arrays with Linked Lists and vice versa?  
 
-#### Q32: How to recursively reverse a Linked List? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q32: How to recursively reverse a Linked List? 
 
-#### Q33: Why is Merge sort preferred over Quick sort for sorting Linked Lists? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q33: Why is Merge sort preferred over Quick sort for sorting Linked Lists? 
 
-#### Q34: Find Merge (Intersection) Point of Two Linked Lists ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q34: Find Merge (Intersection) Point of Two Linked Lists 
 
-#### Q35: How would you traverse a Linked List in <i><code>O(n<sup>1/2</sup>)</code></i>? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q35: How would you traverse a Linked List in <i><code>O(n<sup>1/2</sup>)</code></i>? 
 
-#### Q36: How to apply Binary Search <code><i>O</i>(<i>log n</i>)</code> on a sorted Linked List? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q36: How to apply Binary Search <code><i>O</i>(<i>log n</i>)</code> on a sorted Linked List? 
 
-#### Q37: When is doubly linked list more efficient than singly linked list? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q37: When is doubly linked list more efficient than singly linked list? 
 
-#### Q38: Find the length of a Linked List which contains cycle (loop) ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q38: Find the length of a Linked List which contains cycle (loop) 
 
-#### Q39: Given a singly Linked List, determine if it is a Palindrome ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q39: Given a singly Linked List, determine if it is a Palindrome 
 
-#### Q40: How is it possible to do Binary Search on a Doubly-Linked List in <code><i>O</i>(<i>n</i>)</code> time? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q40: How is it possible to do Binary Search on a Doubly-Linked List in <code><i>O</i>(<i>n</i>)</code> time? 
 
-#### Q41: Why would you ever do Binary Search on a Doubly-Linked list? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q41: Why would you ever do Binary Search on a Doubly-Linked list? ⭐
 
-#### Q42: Do you know any better than than Floyd's algorithm for cycle detection? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q42: Do you know any better than than Floyd's algorithm for cycle detection? ⭐
 
-#### Q43: Copy a Linked List with Random (Arbitrary) Pointer using <code><i>O</i>(<i>1</i>)</code> Space ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q43: Copy a Linked List with Random (Arbitrary) Pointer using <code><i>O</i>(<i>1</i>)</code> Space ⭐
