@@ -1075,3 +1075,154 @@ We go through each node one by one and record each node's reference (or memory a
 #### Q17: What are some main advantages of Tries over Hash Tables 
 
 #### Q18: How To Choose Between a Hash Table and a Trie (Prefix Tree)? 
+
+<hr>
+
+
+## [[⬆]](#toc) <a name=HeapsandMaps>Heaps and Maps</a> Interview Questions
+#### Q1: What is Heap? ⭐
+**Answer:**
+A **Heap** is a special Tree-based data structure which is an almost complete tree that satisfies the heap property:
+
+* in a **max heap**, for any given node C, if P is a parent node of C, then the key (the value) of P is greater than or equal to the key of C. 
+* In a **min heap**, the key of P is less than or equal to the key of C. The node at the "top" of the heap (with no parents) is called the root node.
+
+
+A common implementation of a heap is the binary heap, in which the tree is a **binary tree.**
+
+
+![](https://www.techiedelight.com/wp-content/uploads/2016/11/Min-Max-Heap.png)
+
+
+**Source:** _www.geeksforgeeks.org_
+
+#### Q2: What is Priority Queue? ⭐
+**Answer:**
+A **priority queue** is a data structure that stores **priorities** (comparable values) and perhaps associated information.  A **priority queue** is different from a "normal" queue, because instead of being a "first-in-first-out" data structure, values come out in order by **priority**. Think of a priority queue as a kind of bag that holds priorities. You can put one in, and you can take out the current highest priority.
+
+![](https://cdn.programiz.com/sites/tutorial2program/files/Introduction.png)
+
+
+**Source:** _pages.cs.wisc.edu_
+
+#### Q3: How is Binary Heap usually implemented? ⭐⭐
+**Answer:**
+A **binary heaps** are commonly implemented with an **array**. Any binary tree can be stored in an array, but because a binary heap is always a _complete_ binary tree, it can be stored compactly. No space is required for pointers; instead, the parent and children of each node can be found by arithmetic on array indices:
+
+* The root element is `0`
+* Left child : `(2*i)+1`
+* Right child : `(2*i)+2`
+* Parent child : `(i-1)/2`
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Binary_Heap_with_Array_Implementation.JPG/800px-Binary_Heap_with_Array_Implementation.JPG)
+
+
+**Source:** _www.geeksforgeeks.org_
+
+#### Q4: Insert item into the Heap. Explain your actions. ⭐⭐
+**Details:**
+Suppose I have a Heap Like the following:
+
+```
+     77
+    /  \
+   /    \
+  50    60
+ / \    / \
+22 30  44 55
+```
+Now, I want to insert another item 55 into this Heap. How to do this?
+
+**Answer:**
+A **binary heap** is defined as a binary tree with two additional constraints:
+
+* **Shape property**: a binary heap is a complete binary tree; that is, all levels of the tree, except possibly the last one (deepest) are fully filled, and, if the last level of the tree is not complete, the nodes of that level are filled from left to right.
+* **Heap property**: the key stored in each node is either greater than or equal to (≥) or less than or equal to (≤) the keys in the node's children, according to some total order.
+
+We start adding child from the most left node and if the parent is lower than the newly added child than we replace them. And like so will go on until the child got the parent having value greater than it.
+
+Your initial tree is:
+
+```js
+     77
+    /  \
+   /    \
+  50    60
+ / \    / \
+22 30  44 55
+```
+Now adding 55 according to the rule on most left side:
+```
+     77
+    /  \
+   /    \
+  50    60
+ / \    / \
+22 30  44 55
+/
+55
+```
+But you see 22 is lower than 55 so replaced it:
+```
+       77
+      /  \
+     /    \
+    50    60
+   / \    / \
+  55 30  44 55
+ /
+22 
+```
+Now 55 has become the child of 50 which is still lower than 55 so replace them too:
+```
+       77
+      /  \
+     /    \
+    55    60
+   / \    / \
+  50 30  44 55
+ /
+22
+```
+Now it cant be sorted more because 77 is greater than 55.
+
+**Source:** _stackoverflow.com_
+
+#### Q5: What is Binary Heap? ⭐⭐
+**Answer:**
+A **Binary Heap** is a _Binary Tree_ with following properties:
+
+* It’s a _complete_ tree (all levels are completely filled except possibly the last level and the last level has all keys as left as possible). This property of Binary Heap makes them suitable to be stored in an array.
+* A Binary Heap is either **Min Heap** or **Max Heap**. In a Min Binary Heap, the key at root must be minimum among all keys present in Binary Heap. The same property must be recursively true for all nodes in Binary Tree. Max Binary Heap is similar to MinHeap.
+
+```js
+            10                      10
+         /      \               /       \  
+       20        100          15         30  
+      /                      /  \        /  \
+    30                     40    50    100   40
+```
+
+**Source:** _www.geeksforgeeks.org_
+
+#### Q6: What is the advantage of Heaps over Sorted Arrays? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: Explain how Heap Sort works ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: When would you want to use a Heap? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: Name some ways to implement Priority Queue ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: Compare Heaps vs Arrays to implement Priority Queue ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: What is the difference between Heap and Red-Black Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Explain how to find 100 largest numbers out of an array of 1 billion numbers ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
