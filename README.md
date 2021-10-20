@@ -851,3 +851,5 @@ Basically our **fib** function will continue to recursively call itself creating
 #### Q13: Can a Fibonacci function be written to execute in _`O(1)`_ time? ⭐
 
 #### Q14: Generating Fibonacci Sequence using ES6 generator functions ⭐
+
+<hr>
