@@ -1424,3 +1424,137 @@ This isn't terribly efficient, by the way, but it would in fact work.
 #### Q43: Copy a Linked List with Random (Arbitrary) Pointer using <code><i>O</i>(<i>1</i>)</code> Space ⭐
 
 <hr>
+
+
+## [[⬆]](#toc) <a name=Queues>Queues</a> Interview Questions
+#### Q1: List some Queue real-life applications ⭐
+**Answer:**
+Queue, as the name suggests is used whenever we need to manage any group of objects in an order in which the first one coming in, also gets out first while the others wait for their turn, like in the following scenarios:
+
+* Serving requests on a single shared resource, like a printer, CPU task scheduling etc.
+* In real life scenario, Call Center phone systems uses Queues to hold people calling them in an order, until a service representative is free.
+* Handling of interrupts in real-time systems. The interrupts are handled in the same order as they arrive i.e First come first served.
+
+**Source:** _www.studytonight.com_
+
+#### Q2: What is Queue? ⭐
+**Answer:**
+A **queue** is a container of objects (a _linear_ collection) that are inserted and removed according to the first-in first-out (FIFO) principle. The process to add an element into queue is called **Enqueue** and the process of removal of an element from queue is called **Dequeue**.
+
+![](https://user-images.githubusercontent.com/13550565/85218641-9d2f9e80-b3ce-11ea-8c1b-a9c058057a70.png)
+
+
+**Source:** _www.cs.cmu.edu_
+
+#### Q3: Why and when should I use Stack or Queue data structures instead of Arrays/Lists? ⭐⭐
+**Answer:**
+Because they help manage your data in more a _particular_ way than arrays and lists. It means that when you're debugging a problem, you won't have to wonder if someone randomly inserted an element into the middle of your list, messing up some invariants.
+
+Arrays and lists are random access. They are very flexible and also easily *corruptible*. If you want to manage your data as FIFO or LIFO it's best to use those, already implemented, collections.
+
+More practically you should:
+* Use a queue when you want to get things out in the order that you put them in (FIFO)
+* Use a stack when you want to get things out in the reverse order than you put them in (LIFO)
+* Use a list when you want to get anything out, regardless of when you put them in (and when you don't want them to automatically be removed).
+
+**Source:** _stackoverflow.com_
+
+#### Q4: What is Complexity Analysis of Queue operations?  ⭐⭐
+**Answer:**
+* Queues offer random access to their contents by shifting the first element off the front of the queue. You have to do this repeatedly to access an arbitrary element somewhere in the queue. Therefore, **access** is <code><i>O</i>(<i>n</i>)</code>.
+* Searching for a given value in the queue requires iterating until you find it. So **search** is <code><i>O</i>(<i>n</i>)</code>.
+* Inserting into a queue, by definition, can only happen at the back of the queue, similar to someone getting in line for a delicious Double-Double burger at In 'n Out. Assuming an efficient queue implementation, queue **insertion** is <code><i>O</i>(<i>1</i>)</code>.
+* Deleting from a queue happens at the front of the queue. Assuming an efficient queue implementation, queue **deletion** is `<code><i>O</i>(<i>1</i>)</code>.
+
+**Source:** _github.com_
+
+#### Q5: What are some types of Queue? ⭐⭐
+**Answer:**
+ Queue can be classified into following types:
+
+* **Simple Queue** - is a linear data structure in which removal of elements is done in the same order they were inserted i.e., the element will be removed first which is inserted first.
+
+![](https://scanftree.com/Data_Structure/queues.png)
+
+* **Circular Queue** - is a linear data structure in which the operations are performed based on FIFO (First In First Out) principle and the last position is connected back to the first position to make a circle. It is also called **Ring Buffer**. Circular queue avoids the wastage of space in a regular queue implementation using arrays.
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Ring_buffer.svg/794px-Ring_buffer.svg.png)
+
+
+* **Priority Queue** - is a type of queue where each element has a priority value and the deletion of the elements is depended upon the priority value
+
+![](https://www.aoprogrammer.com/wp-content/uploads/2018/07/enqueue-priority-queue.png)
+
+  * In case of **max-priority queue**, the element will be deleted first which has the largest priority value
+  * In case of **min-priority queue** the element will be deleted first which has the minimum priority value.
+* **De-queue (Double ended queue)** - allows insertion and deletion from both the ends i.e. elements can be added or removed from rear as well as front end.
+
+![](https://i.imgur.com/AF3RVpP.png)
+
+  * **Input restricted deque** - In input restricted double ended queue, the insertion operation is performed at only one end and deletion operation is performed at both the ends.
+
+![](https://i.imgur.com/dSJUHFE.png)
+
+  * **Output restricted deque** - In output restricted double ended queue, the deletion operation is performed at only one end and insertion operation is performed at both the ends.
+
+
+![](https://i.imgur.com/vyHyffe.png)
+
+ 
+**Source:** _www.ques10.com_
+
+#### Q6: Implement Stack using Two Queues (with efficient `push`) ⭐⭐
+**Details:**
+Given two queues with their standard operations (`enqueue`, `dequeue`, `isempty`, `size`), implement a stack with its standard operations (`pop`, `push`, `isempty`, `size`). The stack should be efficient when pushing an item.
+
+**Answer:**
+Given we have `queue1` and `queue2`:
+
+**push** - `O(1)`: 
+  - enqueue in `queue1`
+
+**pop** - `O(n)`:
+  - while size of `queue1` is bigger than 1, pipe (dequeue + enqueue) dequeued items from `queue1` into `queue2`
+  - dequeue and return the last item of `queue1`, then switch the names of `queue1` and `queue2`
+
+**Source:** _stackoverflow.com_
+
+#### Q7: Implement a Queue using two Stacks ⭐⭐
+**Details:**
+Suppose we have two stacks and no other temporary variable. Is to possible to "construct" a queue data structure using only the two stacks?
+
+**Answer:**
+Keep two stacks, let's call them `inbox` and `outbox`.
+
+**Enqueue**:
+
+ - Push the new element onto `inbox`
+
+**Dequeue**:
+
+ - If `outbox` is empty, refill it by popping **each** element from `inbox` and pushing it onto `outbox`
+ - Pop and return the top element from `outbox`
+
+**Source:** _stackoverflow.com_
+
+#### Q8: What are benefits of Circular Queue? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: Name some Queue implementations and compare them by efficiency of operations ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: Compare Array-Based vs List-Based implementation of Queues ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: How to manage Full Circular Queue event? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Name most efficient way to implement Stack and Queue together? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: How implement a Queue using only One (1) Stack? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: How do I convert a Queue into the Stack? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
