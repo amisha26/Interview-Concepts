@@ -961,3 +961,45 @@ Graphs are used to solve real-life problems that involve representation of the p
 #### Q18: What's the difference between best-first search and `A*` Search? ⭐⭐
 
 #### Q19: Illustrate the difference in peak memory consumption between DFS and BFS ⭐⭐
+
+<hr>
+
+
+## [[⬆]](#toc) <a name=GreedyAlgorithms>Greedy Algorithms</a> Interview Questions
+#### Q1: What is a Greedy Algorithm? ⭐
+**Answer:**
+We call algorithms *greedy* when they utilise the greedy property. The greedy property is:
+
+> At that exact moment in time, what is the optimal choice to make?
+
+Greedy algorithms are _greedy_. They do not look into the future to decide the global optimal solution. They are only concerned with the optimal solution _locally_. This means that **the overall optimal solution may differ from the solution the greedy algorithm chooses.**
+
+They never look backwards at what they've done to see if they could optimise globally. This is the main difference between Greedy Algorithms and Dynamic Programming.
+
+**Source:** _skerritt.blog_
+
+#### Q2: What Are Greedy Algorithms Used For? ⭐⭐
+**Answer:**
+Greedy algorithms are quick. A lot faster than the two other alternatives (Divide & Conquer, and Dynamic Programming). They're used because they're fast. Sometimes, Greedy algorithms give the global optimal solution every time. Some of these algorithms are:
+
+* Dijkstra's Algorithm
+* Kruskal's algorithm
+* Prim's algorithm
+* Huffman trees
+
+These algorithms are Greedy, and their Greedy solution gives the optimal solution.
+
+#### Q3: What is the difference between Dynamic Programming and Greedy Algorithms? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q4: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q5: Is Dijkstra's algorithm a Greedy or Dynamic Programming algorithm? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q6: What's the difference between Greedy and Heuristic algorithm? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: Are there any proof to decide if Greedy approach will produce the best solution? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
