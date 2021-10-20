@@ -344,8 +344,6 @@ There are three different types of binary trees:
 
 
 
-**Source:** _study.com_
-
 #### Q2: What is Binary Search Tree? ⭐⭐
 **Answer:**
 **Binary search tree** is a data structure that quickly allows to maintain a _sorted list_ of numbers.
@@ -363,7 +361,6 @@ The properties that separates a binary search tree from a regular binary tree ar
 ![](https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.jpg)
 
 
-**Source:** _www.programiz.com_
 
 #### Q3: Explain the difference between Binary Tree and Binary Search Tree with an example? ⭐⭐⭐
 Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
