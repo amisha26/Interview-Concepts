@@ -868,8 +868,6 @@ Graphs are used to solve real-life problems that involve representation of the p
 ![](https://miro.medium.com/max/1640/1*4s5Z7gVwVqmKcslgiamRyw.png)
 
 
-**Source:** _www.educative.io_
-
 #### Q2: What's the difference between the data structure Tree and Graph? ⭐⭐
 **Answer:**
 **Graph:**
@@ -892,8 +890,6 @@ Graphs are used to solve real-life problems that involve representation of the p
 
 ![](https://miro.medium.com/max/2262/1*-yHATwTlY2hwceJ93-D-cw.jpeg)
 
-
-**Source:** _stackoverflow.com_
 
 #### Q3: List some ways of representing Graphs ⭐⭐
 **Answer:**
