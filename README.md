@@ -395,3 +395,5 @@ The properties that separates a binary search tree from a regular binary tree ar
 #### Q18: What's the main reason for choosing Red Black (RB) trees instead of AVL trees? ⭐⭐
 
 #### Q19: How is an AVL tree different from a B-tree? ⭐⭐
+
+<hr>
