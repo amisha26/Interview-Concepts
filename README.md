@@ -1544,3 +1544,77 @@ Keep two stacks, let's call them `inbox` and `outbox`.
 #### Q14: How do I convert a Queue into the Stack? 
 
 <hr>
+
+
+## [[⬆]](#toc) <a name=Recursion>Recursion</a> Interview Questions
+#### Q1: What is a good example of Recursion (other than generating a Fibonacci sequence)? ⭐⭐
+**Answer:**
+There are some:
+* The binary tree search
+* Check for a palyndrome
+* Finding factorial
+* Traversing the folder hierarchy of a directory tree as part of a file system
+* Towers of Hanoi
+* Merge sort 
+* Catalan numbers
+
+**Source:** _stackoverflow.com_
+
+#### Q2: How Dynamic Programming is different from Recursion and Memoization? ⭐⭐
+**Answer:**
+* **Memoization** is when you store previous results of a function call (a real function always returns the same thing, given the same inputs). It doesn't make a difference for algorithmic complexity before the results are stored.
+* **Recursion** is the method of a function calling itself, usually with a smaller dataset. Since most recursive functions can be converted to similar iterative functions, this doesn't make a difference for algorithmic complexity either.
+* **Dynamic programming** is the process of solving easier-to-solve sub-problems and building up the answer from that. Most DP algorithms will be in the running times between a Greedy algorithm (if one exists) and an exponential (enumerate all possibilities and find the best one) algorithm.
+  * DP algorithms could be implemented with recursion, but they don't have to be.
+  * DP algorithms can't be sped up by memoization, since each sub-problem is only ever solved (or the "solve" function called) once.
+
+**Source:** _stackoverflow.com_
+
+#### Q3: What is the difference between Backtracking and Recursion? ⭐⭐
+**Answer:**
+* **Recursion** describes the calling of the _same function_ that you are in. The typical example of a recursive function is the factorial. You always need a condition that makes recursion stop (base case). 
+* **Backtracking** is when the algorithm makes an opportunistic decision<sup>*</sup>, which may come up to be wrong. If the decision was wrong then the backtracking algorithm restores the state before the decision. It builds candidates for the solution and abandons those which cannot fulfill the conditions. A typical example for a task to solve would be the _Eight Queens Puzzle_. Backtracking is also commonly used within _Neuronal Networks_. Many times backtracking is not implemented recursively. If backtracking uses recursion its called **Recursive Backtracking**
+
+P.S. <sup>*</sup> **Opportunistic decision** making refers to a process where a person or group assesses alternative actions made possible by the favorable convergence of immediate circumstances recognized **without** reference to any **general plan**.
+
+**Source:** _www.quora.com_
+
+#### Q4: Can you convert this Recursion function into a loop? ⭐⭐
+**Details:**
+Can you convert this recursion function into a loop?
+```js
+A(x) {
+  if x<0 return 0;
+  return something(x) + A(x-1)
+}
+```
+
+**Answer:**
+Any recursive function can be made to iterate (into a loop) but you need to use a stack yourself to keep the state.
+
+```js
+A(x) {
+  temp = 0;
+  for i in 0..x {
+    temp = temp + something(i);
+  }
+  return temp;
+}
+```
+
+**Source:** _stackoverflow.com_
+
+#### Q5: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q6: Convert a Binary Tree to a Doubly Linked List ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: How to use Memoization for N-th Fibonacci number?  ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: How to recursively reverse a Linked List? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: Is it always possible to write a non-recursive form for every Recursive function? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
