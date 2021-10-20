@@ -998,3 +998,100 @@ These algorithms are Greedy, and their Greedy solution gives the optimal solutio
 #### Q7: Are there any proof to decide if Greedy approach will produce the best solution? ⭐
 
 <hr>
+
+
+## [[⬆]](#toc) <a name=HashTables>Hash Tables</a> Interview Questions
+#### Q1: What is Hash Table? ⭐
+**Answer:**
+A **hash table** (hash map) is a data structure that implements an **associative** array abstract data type, a **structure** that can **map keys to values**. Hash tables implement an associative array, which is indexed by arbitrary objects (keys). A hash table uses a **hash function** to compute an **index**, also called a **hash value**, into an **array of buckets** or slots, from which the desired **value** can be found.
+
+
+![](https://i.stack.imgur.com/0yjYd.png)
+
+
+**Source:** _en.wikipedia.org_
+
+#### Q2: What is Hashing? ⭐⭐
+**Answer:**
+**Hashing** is the practice of using **an algorithm (or hash function)** to map data of _any_ size to a _fixed_ length. This is called a hash value (or sometimes hash code or hash sums or even a hash digest if you’re feeling fancy). In hashing, keys are converted into _hash values_ or _indexes_ by using **hash functions**. Hashing is a one-way function.
+
+**Source:** _www.thesslstore.com_
+
+#### Q3: Explain what is Hash Value? ⭐⭐
+**Answer:**
+A **Hash Value** (also called as Hashes or Checksum) is a string value (of specific length), which is the result of calculation of a Hashing Algorithm. Hash Values have different uses:
+
+1. Indexing for Hash Tables
+2. Determine the Integrity of any Data (which can be a file, folder, email, attachments, downloads etc).
+
+**Source:** _www.omnisecu.com_
+
+#### Q4: What is the space complexity of a Hash Table? ⭐⭐
+**Answer:**
+The space complexity of a datastructure indicates how much space it occupies in relation to the amount of elements it holds. For example a space complexity of `O(1)` would mean that the datastructure alway consumes constant space no matter how many elements you put in there. `O(n)` would mean that the space consumption grows linearly with the amount of elements in it.
+
+A **hashtable** typically has a space complexity of `O(n)`.
+
+**Source:** _stackoverflow.com_
+
+#### Q5: Define what is a Hash Function? ⭐⭐
+**Answer:**
+A **hash function** is any function that can be used to map data of arbitrary size to fixed-size values. The values returned by a hash function are called _hash values_, hash codes, digests, or simply hashes. The values are used to index a fixed-size table called a hash table. Use of a hash function to index a hash table is called _hashing_ or _scatter storage addressing_.
+
+Mathematically speaking, a **hash function** is usually defined as a mapping from the universe of elements you want to store in the hash table to the range `{0, 1, 2, .., numBuckets - 1}`. 
+
+Some properties of Hash Functions are:
+
+* Very fast to compute (nearly constant)
+* One way; can not be reversed
+* Output does not reveal information on input
+* Hard to find collisions (different data with same hash)
+* Implementation is based on parity-preserving bit operations (XOR and ADD), multiply, or divide. 
+
+**Source:** _en.wikipedia.org_
+
+#### Q6: Detect if a List is Cyclic using Hash Table ⭐⭐
+**Answer:**
+To detect if a list is cyclic, we can check whether a node had been visited before. A natural way is to use a hash table.
+
+**Algorithm**
+
+We go through each node one by one and record each node's reference (or memory address) in a hash table. If the current node is `null`, we have reached the end of the list and it must not be cyclic. If current node’s reference is in the hash table, then return true.
+
+**Source:** _leetcode.com_
+
+#### Q7: What is the significance of load factor of a Hash Table? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: What does "bucket entries" mean in the context of a hashtable? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: What is complexity of Hash Table? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: What is Hash Collision? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: Explain in simple terms how Hash Tables are implemented? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Remove duplicates from an unsorted Linked List ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: Find similar elements from two Linked Lists and return the result as a Linked List ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: Explain some technics to handle collision in Hash Tables ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q15: How can I pair socks from a pile efficiently? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q16: Compare lookup operation in Trie vs Hash Table ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q17: What are some main advantages of Tries over Hash Tables ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q18: How To Choose Between a Hash Table and a Trie (Prefix Tree)? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
