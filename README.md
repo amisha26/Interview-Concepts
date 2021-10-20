@@ -748,26 +748,18 @@ The key idea of DP is to save answers of overlapping smaller sub-problems to avo
 
 **Source:** _stackoverflow.com_
 
-#### Q5: Provide an example of Dynamic Program but without Recursion ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Provide an example of Dynamic Program but without Recursion 
 
-#### Q6: What are some pros and cons of Tabulation or Bottom-Up approach? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: What are some pros and cons of Tabulation or Bottom-Up approach? 
 
-#### Q7: What should you consider when choosing between Top-Down vs Bottom-Up solutions for the same problem? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: What should you consider when choosing between Top-Down vs Bottom-Up solutions for the same problem? 
 
-#### Q8: LIS: Find length of the longest increasing subsequence (LIS) in the array. Solve using DP. ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: LIS: Find length of the longest increasing subsequence (LIS) in the array. Solve using DP. 
 
-#### Q9: What is the difference between Divide and Conquer and Dynamic Programming Algorithms? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: What is the difference between Divide and Conquer and Dynamic Programming Algorithms? 
 
-#### Q10: How to use Memoization for N-th Fibonacci number?  ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: How to use Memoization for N-th Fibonacci number?  ⭐
 
-#### Q11: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐
 
-#### Q12: Is Dijkstra's algorithm a Greedy or Dynamic Programming algorithm? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Is Dijkstra's algorithm a Greedy or Dynamic Programming algorithm? ⭐
