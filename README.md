@@ -1545,7 +1545,6 @@ Keep two stacks, let's call them `inbox` and `outbox`.
 
 <hr>
 
-
 ## [[⬆]](#toc) <a name=Recursion>Recursion</a> Interview Questions
 #### Q1: What is a good example of Recursion (other than generating a Fibonacci sequence)? ⭐⭐
 **Answer:**
@@ -1558,8 +1557,6 @@ There are some:
 * Merge sort 
 * Catalan numbers
 
-**Source:** _stackoverflow.com_
-
 #### Q2: How Dynamic Programming is different from Recursion and Memoization? ⭐⭐
 **Answer:**
 * **Memoization** is when you store previous results of a function call (a real function always returns the same thing, given the same inputs). It doesn't make a difference for algorithmic complexity before the results are stored.
@@ -1568,16 +1565,12 @@ There are some:
   * DP algorithms could be implemented with recursion, but they don't have to be.
   * DP algorithms can't be sped up by memoization, since each sub-problem is only ever solved (or the "solve" function called) once.
 
-**Source:** _stackoverflow.com_
-
 #### Q3: What is the difference between Backtracking and Recursion? ⭐⭐
 **Answer:**
 * **Recursion** describes the calling of the _same function_ that you are in. The typical example of a recursive function is the factorial. You always need a condition that makes recursion stop (base case). 
 * **Backtracking** is when the algorithm makes an opportunistic decision<sup>*</sup>, which may come up to be wrong. If the decision was wrong then the backtracking algorithm restores the state before the decision. It builds candidates for the solution and abandons those which cannot fulfill the conditions. A typical example for a task to solve would be the _Eight Queens Puzzle_. Backtracking is also commonly used within _Neuronal Networks_. Many times backtracking is not implemented recursively. If backtracking uses recursion its called **Recursive Backtracking**
 
-P.S. <sup>*</sup> **Opportunistic decision** making refers to a process where a person or group assesses alternative actions made possible by the favorable convergence of immediate circumstances recognized **without** reference to any **general plan**.
-
-**Source:** _www.quora.com_
+P.S. <sup>*</sup> **Opportunistic decision** making refers to a process where a person or group assesses alternative actions made possible by the favorable convergence of immediate circumstances recognized **without** reference to any **general plan**._
 
 #### Q4: Can you convert this Recursion function into a loop? ⭐⭐
 **Details:**
@@ -1602,8 +1595,6 @@ A(x) {
 }
 ```
 
-
-
 #### Q5: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work?
 
 #### Q6: Convert a Binary Tree to a Doubly Linked List
@@ -1613,3 +1604,5 @@ A(x) {
 #### Q8: How to recursively reverse a Linked List? 
 
 #### Q9: Is it always possible to write a non-recursive form for every Recursive function? 
+
+<hr>
