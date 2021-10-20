@@ -496,9 +496,6 @@ Lets take it right to left and add up all those values together:
 128 * `0` + 64 * `0` + 32 * `0` + 16 * `1` + 8 * `0` + 4 * `1` + 2 * `1` + 1 * `0`   = 22  
 
 
-
-**Source:** _github.com_
-
 #### Q3: What is a Byte? ⭐⭐
 **Answer:**
 A **byte** is made up of 8 bits and the highest value of a byte is 255, which would mean every bit is set. We will look at why a byte's maximum value is 255 in just a second.
@@ -580,7 +577,6 @@ So if all bits are set and the value = 255 my byte would look like this:
 Lets take it right to left and add up all those values together
 1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255
 
-**Source:** _github.com_
 
 #### Q4: Name some bitwise operations you know ⭐⭐
 **Answer:**
@@ -607,15 +603,12 @@ XOR|0 1     NOT|0 1
 
 * **Zero Fill Right Shift ( >>> )**: Shifts right by pushing zeros in from the left, filling in the left bits with 0s
 
-**Source:** _www.hackerearth.com_
 
 #### Q5: Explain what is Bitwise operation? ⭐⭐
 **Answer:**
 **Bitwise operators** are used for _manipulating a data at the bit level_, also called as bit level programming. It is a fast and simple action, directly supported by the processor, and is used to manipulate values for comparisons and calculations.
 
 On simple low-cost processors, typically, bitwise operations are substantially faster than division, several times faster than multiplication, and sometimes significantly faster than addition.
-
-**Source:** _en.wikipedia.org_
 
 #### Q6: Flip all bits in an integer ⭐⭐
 **Details:**
@@ -641,8 +634,6 @@ int flipBits(int n) {
     return ~n;
 }
 ```
-
-**Source:** _stackoverflow.com_
 
 #### Q7: What are some real world use cases of the bitwise operators? 
 
