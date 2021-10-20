@@ -853,3 +853,131 @@ Basically our **fib** function will continue to recursively call itself creating
 #### Q14: Generating Fibonacci Sequence using ES6 generator functions ⭐
 
 <hr>
+
+
+
+## [[⬆]](#toc) <a name=GraphTheory>Graph Theory</a> Interview Questions
+#### Q1: What is a Graph? ⭐
+**Answer:**
+A **graph** is a common data structure that consists of a finite set of **nodes** (or **vertices**) and a set of **edges** connecting them. A pair `(x,y)` is referred to as an edge, which communicates that the **x vertex** connects to the **y vertex**.
+
+Graphs are used to solve real-life problems that involve representation of the problem space as a **network**. Examples of networks include telephone networks, circuit networks, social networks (like LinkedIn, Facebook etc.).
+
+
+
+![](https://miro.medium.com/max/1640/1*4s5Z7gVwVqmKcslgiamRyw.png)
+
+
+**Source:** _www.educative.io_
+
+#### Q2: What's the difference between the data structure Tree and Graph? ⭐⭐
+**Answer:**
+**Graph:**
+* Consists of a set of vertices (or nodes) and a set of edges connecting some or all of them
+* Any edge can connect any two vertices that aren't already connected by an identical edge (in the same direction, in the case of a directed graph)
+* Doesn't have to be connected (the edges don't have to connect all vertices together): a single graph can consist of a few disconnected sets of vertices
+* Could be directed or undirected (which would apply to all edges in the graph)
+
+**Tree:**
+* A type of graph (fit with in the category of Directed Acyclic Graphs (or a DAG))
+* Vertices are more commonly called "nodes"
+* Edges are directed and represent an "is child of" (or "is parent of") relationship
+* Each node (except the root node) has exactly one parent (and zero or more children)
+* Has exactly one "root" node (if the tree has at least one node), which is a node without a parent
+* Has to be connected
+* Is acyclic, meaning it has no cycles: "a cycle is a path [AKA sequence] of edges and vertices wherein a vertex is reachable from itself"
+* Trees aren't a recursive data structure
+
+
+
+![](https://miro.medium.com/max/2262/1*-yHATwTlY2hwceJ93-D-cw.jpeg)
+
+
+**Source:** _stackoverflow.com_
+
+#### Q3: List some ways of representing Graphs ⭐⭐
+**Answer:**
+* **Edge Lists**. We have an array of two vertex numbers, or an array of objects containing the vertex numbers of the vertices that the edges are incident on (plus weight). Edge lists are simple, but if we want to find whether the graph contains a particular edge, we have to search through the edge list. If the edges appear in the edge list in no particular order, that's a linear search through `E` edges.
+```js
+[ [0,1], [0,6], [0,8], [1,4], [1,6], [1,9], [2,4], [2,6], [3,4], [3,5], [3,8], [4,5], [4,9], [7,8], [7,9] ]
+```
+* **Adjacency Matrices.** With an adjacency matrix, we can find out whether an edge is present in constant time, by just looking up the corresponding entry in the matrix - we can query whether edge `(i, j)` is in the graph by looking at `graph[i][j]` value. For a sparse graph, the adjacency matrix is mostly `0s`, and we use lots of space to represent only a few edges. For an undirected graph, the adjacency matrix is _symmetric_.
+```js
+[ [0, 1, 0, 0, 0, 0, 1, 0, 1, 0],
+  [1, 0, 0, 0, 1, 0, 1, 0, 0, 1],
+  [0, 0, 0, 0, 1, 0, 1, 0, 0, 0],
+  [0, 0, 0, 0, 1, 1, 0, 0, 1, 0],
+  [0, 1, 1, 1, 0, 1, 0, 0, 0, 1],
+  [0, 0, 0, 1, 1, 0, 0, 0, 0, 0],
+  [1, 1, 1, 0, 0, 0, 0, 0, 0, 0],
+  [0, 0, 0, 0, 0, 0, 0, 0, 1, 1],
+  [1, 0, 0, 1, 0, 0, 0, 1, 0, 0],
+  [0, 1, 0, 0, 1, 0, 0, 1, 0, 0] ]
+```
+* **Adjacency Lists**. For each vertex `i`, store an array of the vertices adjacent to it (or array of _tuples_ for weighted graph). To find out whether an edge `(i,j)` is present in the graph, we go to `i's` adjacency list in constant time and then look for `j` in `i's` adjacency list.
+```js
+[ [1, 6, 8],   // 0
+  [0, 4, 6, 9],  // 1
+  [4, 6],        // 2
+  [4, 5, 8],
+  [1, 2, 3, 5, 9],
+  [3, 4],
+  [0, 1, 2],
+  [8, 9],
+  [0, 3, 7],
+  [1, 4, 7] ]    // N
+```
+
+
+![](https://www.educative.io/api/edpresso/shot/6738347923865600/image/4587527119831040)
+
+
+**Source:** _www.khanacademy.org_
+
+#### Q4: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q5: Explain what is `A*` Search? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q6: What is difference between BFS and Dijkstra's algorithms when looking for shortest path? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: Compare Adjacency Lists or Adjacency Matrices for Graphs representation ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: Provide some practical examples of using Depth-First Search (DFS) vs Breadth-First Search (BFS)? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: What are some applications of Graphs? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: Explain the BSF (Breadth First Search) traversing method ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: Name some common types and categories of Graphs ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Why is the complexity of DFS _`O(V+E)`_? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: What are key differences between BFS and DFS? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: What is Bipartite Graph? How to detect one? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q15: How do we know whether we need to use BSF or DSF algorithm? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q16: Why does a Breadth First Search (BFS) use more memory than Depth First Search (DFS)? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q17: Explain what is heuristic cost function in `A*` Search and how to calculate one? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q18: What's the difference between best-first search and `A*` Search? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q19: Illustrate the difference in peak memory consumption between DFS and BFS ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
