@@ -1078,7 +1078,6 @@ We go through each node one by one and record each node's reference (or memory a
 
 <hr>
 
-
 ## [[⬆]](#toc) <a name=HeapsandMaps>Heaps and Maps</a> Interview Questions
 #### Q1: What is Heap? ⭐
 **Answer:**
@@ -1094,16 +1093,12 @@ A common implementation of a heap is the binary heap, in which the tree is a **b
 ![](https://www.techiedelight.com/wp-content/uploads/2016/11/Min-Max-Heap.png)
 
 
-**Source:** _www.geeksforgeeks.org_
-
 #### Q2: What is Priority Queue? ⭐
 **Answer:**
 A **priority queue** is a data structure that stores **priorities** (comparable values) and perhaps associated information.  A **priority queue** is different from a "normal" queue, because instead of being a "first-in-first-out" data structure, values come out in order by **priority**. Think of a priority queue as a kind of bag that holds priorities. You can put one in, and you can take out the current highest priority.
 
 ![](https://cdn.programiz.com/sites/tutorial2program/files/Introduction.png)
 
-
-**Source:** _pages.cs.wisc.edu_
 
 #### Q3: How is Binary Heap usually implemented? ⭐⭐
 **Answer:**
@@ -1117,8 +1112,6 @@ A **binary heaps** are commonly implemented with an **array**. Any binary tree c
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Binary_Heap_with_Array_Implementation.JPG/800px-Binary_Heap_with_Array_Implementation.JPG)
 
-
-**Source:** _www.geeksforgeeks.org_
 
 #### Q4: Insert item into the Heap. Explain your actions. ⭐⭐
 **Details:**
@@ -1187,7 +1180,6 @@ Now 55 has become the child of 50 which is still lower than 55 so replace them t
 ```
 Now it cant be sorted more because 77 is greater than 55.
 
-**Source:** _stackoverflow.com_
 
 #### Q5: What is Binary Heap? ⭐⭐
 **Answer:**
@@ -1204,7 +1196,6 @@ A **Binary Heap** is a _Binary Tree_ with following properties:
     30                     40    50    100   40
 ```
 
-**Source:** _www.geeksforgeeks.org_
 
 #### Q6: What is the advantage of Heaps over Sorted Arrays? ⭐⭐⭐
 Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
