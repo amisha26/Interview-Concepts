@@ -325,3 +325,93 @@ Let's consider a traversal algorithm for traversing a list.
 #### Q22: What is the big O notation of this function? 
 
 <hr>
+
+
+## [[⬆]](#toc) <a name=BinaryTree>Binary Tree</a> Interview Questions
+#### Q1: Define Binary Tree ⭐
+**Answer:**
+A normal tree has no restrictions on the number of children each node can have. A **binary tree** is made of nodes, where each node contains a "left" pointer, a "right" pointer, and a data element. 
+
+There are three different types of binary trees:
+
+* **Full binary tree**: Every node other than leaf nodes has 2 child nodes.
+* **Complete binary tree**: All levels are filled except possibly the last one, and all nodes are filled in as far left as possible.
+* **Perfect binary tree**: All nodes have two children and all leaves are at the same level.
+
+
+
+![](https://study.com/cimages/multimages/16/0e0646ba-30e5-40d9-b45c-a138f038f05b_full_complete_perfect.png)
+
+
+
+**Source:** _study.com_
+
+#### Q2: What is Binary Search Tree? ⭐⭐
+**Answer:**
+**Binary search tree** is a data structure that quickly allows to maintain a _sorted list_ of numbers.
+
+* It is called a _binary tree_ because each tree node has maximum of two children.
+* It is called a _search tree_ because it can be used to search for the presence of a number in `O(log n)` time.
+
+The properties that separates a binary search tree from a regular binary tree are:
+
+* All nodes of left subtree are less than root node
+* All nodes of right subtree are more than root node
+* Both subtrees of each node are also BSTs i.e. they have the above two properties
+
+
+![](https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.jpg)
+
+
+**Source:** _www.programiz.com_
+
+#### Q3: Explain the difference between Binary Tree and Binary Search Tree with an example? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q4: Why do we want to use Binary Search Tree? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q5: What is AVL Tree? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q6: What are advantages and disadvantages of BST? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: What is Balanced Tree and why is that important? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: Convert a Binary Tree to a Doubly Linked List ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: What is the difference between Heap and Red-Black Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: Explain how to balance AVL Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: How does inserting or deleting nodes affect a Red-Black tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12:  Explain what the main differences between red-black (RB) trees and AVL trees ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: What is Red-Black tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: Build a Binary Expression Tree for this expression ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q15: What is the time complexity for insert into Red-Black Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q16: Is there any reason anyone should use BSTs instead of AVLs in the first place? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q17: What are main advantages of Tries over Binary Search Trees (BSTs)? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q18: What's the main reason for choosing Red Black (RB) trees instead of AVL trees? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q19: How is an AVL tree different from a B-tree? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
