@@ -648,3 +648,51 @@ def flipBits(n):
 #### Q12: Flip k least significant bits in an integer ⭐
 
 <hr>
+
+
+
+## [[⬆]](#toc) <a name=BrainTeasers>Brain Teasers</a> Interview Questions
+#### Q1: How do you swap two numbers without using the third variable? ⭐⭐
+**Answer:**
+You can swap two numbers without using a temporary or third variable if you can _store the sum of numbers in one number and then minus the sum with other number_, something like:
+
+```js
+a = 3;
+b = 5;
+
+a = a + b; //8
+b = a — b; // 3
+a = a — b; //5
+```
+
+now you have `a = 5` and `b = 3`, so numbers are swapped without using a third or temp variable.
+
+**Source:** _javarevisited.blogspot.com_
+
+#### Q2: Write a function that guarantees to never return the same value twice ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q3: How can I pair socks from a pile efficiently? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q4: How to check for braces balance in a really large (1T) file in parallel? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+## [[⬆]](#toc) <a name=Divide&Conquer>Divide & Conquer</a> Interview Questions
+#### Q1: Explain how Merge Sort works ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q2: What is the difference between Divide and Conquer and Dynamic Programming Algorithms? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q3: Convert a Binary Tree to a Doubly Linked List ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q4: Explain how QuickSort works ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q5: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q6: Explain what is Fibonacci Search technique? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
