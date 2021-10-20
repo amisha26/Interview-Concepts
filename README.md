@@ -989,17 +989,12 @@ Greedy algorithms are quick. A lot faster than the two other alternatives (Divid
 
 These algorithms are Greedy, and their Greedy solution gives the optimal solution.
 
-#### Q3: What is the difference between Dynamic Programming and Greedy Algorithms? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q3: What is the difference between Dynamic Programming and Greedy Algorithms?
 
-#### Q4: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q4: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms 
 
-#### Q5: Is Dijkstra's algorithm a Greedy or Dynamic Programming algorithm? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Is Dijkstra's algorithm a Greedy or Dynamic Programming algorithm? 
 
-#### Q6: What's the difference between Greedy and Heuristic algorithm? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: What's the difference between Greedy and Heuristic algorithm? 
 
-#### Q7: Are there any proof to decide if Greedy approach will produce the best solution? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: Are there any proof to decide if Greedy approach will produce the best solution? ⭐
