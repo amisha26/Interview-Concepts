@@ -1213,13 +1213,11 @@ A **Binary Heap** is a _Binary Tree_ with following properties:
 
 <hr>
 
-
 ## [[⬆]](#toc) <a name=LinkedLists>Linked Lists</a> Interview Questions
 #### Q1: Define Linked List ⭐
 **Answer:**
 A **linked list** is a linear data structure where each element is a separate object. Each element (we will call it a **node**) of a list is comprising of two items - the **data** and a **reference (pointer)** to the next node. The last node has a reference to **null**. The entry point into a linked list is called the **head** of the list. It should be noted that _head is not a separate node,_ but the reference to the first node. If the list is empty then the head is a null reference.
 
-**Source:** _www.cs.cmu.edu_
 
 #### Q2: Name some advantages of Linked List ⭐
 **Answer:**
@@ -1228,7 +1226,6 @@ There are some:
 * Insertion and Deletion are **simple to implement** - Unlike array here we don’t have to shift elements after insertion or deletion of an element. In linked list we just have to update the address present in next pointer of a node.
 * **Efficient Memory Allocation/No Memory Wastage** - In case of array there is lot of memory wastage, like if we declare an array of size 10 and store only 6 elements in it then space of 4 elements are wasted. There is no such problem in linked list as memory is allocated only when required.
 
-**Source:** _www.thecrazyprogrammer.com_
 
 #### Q3: What is a cycle/loop in the singly-linked list? ⭐⭐
 **Answer:**
@@ -1237,7 +1234,6 @@ A **cycle/loop** occurs when a node’s next points _back_ to a _previous node_ 
 
 ![](https://www.programcreek.com/wp-content/uploads/2012/12/linked-list-cycle-300x211.png)
 
-**Source:** _www.interviewcake.com_
 
 #### Q4: What are some types of Linked List? ⭐⭐
 **Answer:**
@@ -1253,8 +1249,6 @@ A **cycle/loop** occurs when a node’s next points _back_ to a _previous node_ 
 ![](https://i2.wp.com/algorithms.tutorialhorizon.com/files/2016/03/Circular-Linked-List.png)
 
 
-**Source:** _www.cs.cmu.edu_
-
 #### Q5: What is time complexity of Linked List operations? ⭐⭐
 **Answer:**
 * A linked list can typically only be accessed via its head node. From there you can only traverse from node to node until you reach the node you seek. Thus **access is <code><i>O</i>(<i>n</i>)</code>**.
@@ -1262,7 +1256,6 @@ A **cycle/loop** occurs when a node’s next points _back_ to a _previous node_ 
 * Inserting into a linked list requires re-pointing the previous node (the node before the insertion point) to the inserted node, and pointing the newly-inserted node to the next node. Thus **insertion is <code><i>O</i>(<i>1</i>)</code>**.
 * Deleting from a linked list requires re-pointing the previous node (the node before the deleted node) to the next node (the node after the deleted node). Thus **deletion is <code><i>O</i>(<i>1</i>)</code>**.
 
-**Source:** _github.com_
 
 #### Q6: Name some disadvantages of Linked Lists? ⭐⭐
 **Answer:**
@@ -1278,13 +1271,11 @@ Few disadvantages of linked lists are :
 * Different amount of time is required to access each element.
 * Not easy to sort the elements stored in the linear linked list.
 
-**Source:** _www.quora.com_
 
 #### Q7: How to reverse a singly Linked List using only two pointers? ⭐⭐
 **Answer:**
 Nothing faster than <code><i>O</i>(<i>n</i>)</code> can be done. You need to traverse the list and alter pointers on every node, so time will be proportional to the number of elements.
 
-**Source:** _stackoverflow.com_
 
 #### Q8: What is complexity of `push` and `pop` for a Stack implemented using a LinkedList? ⭐⭐
 **Answer:**
@@ -1308,17 +1299,12 @@ Pop:
 [1]->[2]->[3] // returning 5
 ```
 
-
-**Source:** _stackoverflow.com_
-
 #### Q9: Insert an item in a sorted Linked List maintaining order ⭐⭐
 **Answer:**
 The `add()` method below walks down the list until it finds the appropriate position. Then, it splices in the new node and updates the `start`, `prev`, and `curr` pointers where applicable.
 
 Note that the reverse operation, namely _removing_ elements, doesn't need to change, because you are simply throwing things away which would not change any order in the list.
 
-
-**Source:** _stackoverflow.com_
 
 #### Q10: Convert a Singly Linked List to Circular Linked List ⭐⭐
 **Answer:**
@@ -1328,7 +1314,6 @@ To convert a singly linked list to circular linked list, we will set next pointe
 *   Using a loop, traverse linked list till tail node (last node) using temp pointer.
 *   Now set the next pointer of tail node to head node. `temp\->next = head`
 
-**Source:** _www.techcrashcourse.com_
 
 #### Q11: Detect if a List is Cyclic using Hash Table ⭐⭐
 **Answer:**
@@ -1338,7 +1323,6 @@ To detect if a list is cyclic, we can check whether a node had been visited befo
 
 We go through each node one by one and record each node's reference (or memory address) in a hash table. If the current node is `null`, we have reached the end of the list and it must not be cyclic. If current node’s reference is in the hash table, then return true.
 
-**Source:** _leetcode.com_
 
 #### Q12: Under what circumstances are Linked Lists useful? ⭐⭐
 **Answer:**
@@ -1352,8 +1336,6 @@ Using an array based list for these purposes has severe limitations:
 *   Adding a new item means the array must be reallocated (or you must allocate more space than you need to allow for future growth and reduce the number of reallocations)
 *   Removing items leaves wasted space or requires a reallocation
 *   inserting items anywhere except the end involves (possibly reallocating and) copying lots of the data up one position
-
-**Source:** _stackoverflow.com_
 
 #### Q13: Convert a Single Linked List to a Double Linked List ⭐⭐
 **Answer:**
@@ -1372,7 +1354,6 @@ private class Node
 
 and when iterating the list, on each new node add a reference to the previous node.
 
-**Source:** _stackoverflow.com_
 
 #### Q14: How to implement Linked List Using Stack? ⭐⭐
 **Answer:**
@@ -1383,8 +1364,6 @@ You can simulate a linked list by using two stacks. One stack is the "list," and
 * To **insert** into the middle somewhere, pop items from the "list" stack and push them onto the temporary stack until you get to your insertion point. Push the new item onto the "list" stack, then pop from the temporary stack and push back onto the "list" stack. Deletion of an arbitrary node is similar.
 
 This isn't terribly efficient, by the way, but it would in fact work.
-
-**Source:** _stackoverflow.com_
 
 #### Q15: Why does linked list delete and insert operation have complexity of _`O(1)`_?
 
@@ -1443,3 +1422,5 @@ This isn't terribly efficient, by the way, but it would in fact work.
 #### Q42: Do you know any better than than Floyd's algorithm for cycle detection? ⭐
 
 #### Q43: Copy a Linked List with Random (Arbitrary) Pointer using <code><i>O</i>(<i>1</i>)</code> Space ⭐
+
+<hr>
