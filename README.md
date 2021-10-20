@@ -715,8 +715,6 @@ BOTTOM of the tree
 ```
 
 
-**Source:** _stackoverflow.com_
-
 #### Q2: How Dynamic Programming is different from Recursion and Memoization? ⭐⭐
 **Answer:**
 * **Memoization** is when you store previous results of a function call (a real function always returns the same thing, given the same inputs). It doesn't make a difference for algorithmic complexity before the results are stored.
@@ -724,8 +722,6 @@ BOTTOM of the tree
 * **Dynamic programming** is the process of solving easier-to-solve sub-problems and building up the answer from that. Most DP algorithms will be in the running times between a Greedy algorithm (if one exists) and an exponential (enumerate all possibilities and find the best one) algorithm.
   * DP algorithms could be implemented with recursion, but they don't have to be.
   * DP algorithms can't be sped up by memoization, since each sub-problem is only ever solved (or the "solve" function called) once.
-
-**Source:** _stackoverflow.com_
 
 #### Q3: What are some characteristics of Dynamic Programming?  ⭐⭐
 **Answer:**
@@ -735,8 +731,6 @@ The key idea of DP is to save answers of overlapping smaller sub-problems to avo
 * Thus each smaller instance is solved only once.
 * Additional space is used to save time.
 
-**Source:** _stackoverflow.com_
-
 #### Q4: What are pros and cons of Memoization or Top-Down approach? ⭐⭐
 **Answer:**
 **Pros**: 
@@ -745,8 +739,6 @@ The key idea of DP is to save answers of overlapping smaller sub-problems to avo
 
 **Cons**: 
  * With memoization, if the tree is very deep (e.g. <code>fib(10<sup>6</sup>)</code>), you will run out of stack space, because each delayed computation must be put on the stack, and you will have <code>10<sup>6</sup></code> of them.
-
-**Source:** _stackoverflow.com_
 
 #### Q5: Provide an example of Dynamic Program but without Recursion 
 
