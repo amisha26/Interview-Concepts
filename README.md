@@ -838,32 +838,22 @@ Basically our **fib** function will continue to recursively call itself creating
 
 **Source:** _medium.com_
 
-#### Q5: Get the N-th Fibonacci number with _`O(n)`_ time and _`O(1)`_ space complexity ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Get the N-th Fibonacci number with _`O(n)`_ time and _`O(1)`_ space complexity
 
-#### Q6: Display startNumber to endNumber only from Fibonacci Sequence ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: Display startNumber to endNumber only from Fibonacci Sequence
 
-#### Q7: How to use Memoization for N-th Fibonacci number?  ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: How to use Memoization for N-th Fibonacci number?  
 
-#### Q8: Get Fibonacci Number in <code><i>O</i>(<i>log n</i>)</code> time using Matrix Exponentiation ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: Get Fibonacci Number in <code><i>O</i>(<i>log n</i>)</code> time using Matrix Exponentiation 
 
-#### Q9: Test if a Number belongs to the Fibonacci Series ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: Test if a Number belongs to the Fibonacci Series 
 
-#### Q10: Calculate n-th Fibonacci number using Tail Recursion ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Calculate n-th Fibonacci number using Tail Recursion 
 
-#### Q11: Binet's formula: How to calculate Fibonacci numbers without Recursion or Iteration?  ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: Binet's formula: How to calculate Fibonacci numbers without Recursion or Iteration?  
 
-#### Q12: Explain what is Fibonacci Search technique? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Explain what is Fibonacci Search technique? 
 
-#### Q13: Can a Fibonacci function be written to execute in _`O(1)`_ time? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: Can a Fibonacci function be written to execute in _`O(1)`_ time? ⭐
 
-#### Q14: Generating Fibonacci Sequence using ES6 generator functions ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: Generating Fibonacci Sequence using ES6 generator functions ⭐
