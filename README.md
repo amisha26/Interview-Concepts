@@ -644,20 +644,14 @@ int flipBits(int n) {
 
 **Source:** _stackoverflow.com_
 
-#### Q7: What are some real world use cases of the bitwise operators? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: What are some real world use cases of the bitwise operators? 
 
-#### Q8: Explain how XOR (^) bit operator works ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: Explain how XOR (^) bit operator works 
 
-#### Q9: What are the advantages of using bitwise operations? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: What are the advantages of using bitwise operations? 
 
-#### Q10: What is difference between `>>` and `>>>` operators? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: What is difference between `>>` and `>>>` operators? 
 
-#### Q11: What is Bit Masking? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: What is Bit Masking? 
 
-#### Q12: Flip k least significant bits in an integer ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Flip k least significant bits in an integer ⭐
