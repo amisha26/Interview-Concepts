@@ -674,6 +674,9 @@ now you have `a = 5` and `b = 3`, so numbers are swapped without using a third o
 
 #### Q4: How to check for braces balance in a really large (1T) file in parallel? ⭐⭐
 
+
+<hr>
+
 ## [[⬆]](#toc) <a name=Divide&Conquer>Divide & Conquer</a> Interview Questions
 #### Q1: Explain how Merge Sort works 
 
@@ -686,3 +689,5 @@ now you have `a = 5` and `b = 3`, so numbers are swapped without using a third o
 #### Q5: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐
 
 #### Q6: Explain what is Fibonacci Search technique? ⭐
+
+<hr>
