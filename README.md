@@ -158,7 +158,6 @@ Backtracking can be understood as as searching os a tree for a particular "goal"
 ![](https://static.javatpoint.com/tutorial/daa/images/backtracking-introduction.png)
 
 
-**Source:** _www.javatpoint.com_
 
 #### Q2: What is the difference between Backtracking and Recursion? ⭐⭐
 **Answer:**
@@ -167,7 +166,7 @@ Backtracking can be understood as as searching os a tree for a particular "goal"
 
 P.S. <sup>*</sup> **Opportunistic decision** making refers to a process where a person or group assesses alternative actions made possible by the favorable convergence of immediate circumstances recognized **without** reference to any **general plan**.
 
-**Source:** _www.quora.com_
+
 
 #### Q3: Why is this called Backtracking? ⭐⭐
 **Answer:**
@@ -180,8 +179,6 @@ Like when looking for a book  because at first you check drawers in the first ro
 #### Q4: What is Exhaustive Search? ⭐⭐
 **Answer:**
 **Exhaustive Search** is an algorithmic technique in which first all possible solutions are generated first and then we select the most feasible solution by applying some rules. Since it follows the most naive approach, it is a.k.a **Brute-Force Search**. This approach is one of the **most expensive** algorithmic techniques, mainly in terms of time complexity. It is also, therefore, one of the most **naive** ones.
-
-**Source:** _afteracademy.com_
 
 #### Q5: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? 
 
@@ -301,7 +298,6 @@ Let's consider a traversal algorithm for traversing a list.
 
 #### Q10: What is an algorithm? 
 
-
 #### Q11: What is complexity of this code snippet? 
 
 #### Q12: What is the time complexity for "Hello, World" function? 
@@ -326,3 +322,4 @@ Let's consider a traversal algorithm for traversing a list.
 
 #### Q22: What is the big O notation of this function? 
 
+<hr>
