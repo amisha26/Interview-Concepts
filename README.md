@@ -964,7 +964,6 @@ Graphs are used to solve real-life problems that involve representation of the p
 
 <hr>
 
-
 ## [[⬆]](#toc) <a name=GreedyAlgorithms>Greedy Algorithms</a> Interview Questions
 #### Q1: What is a Greedy Algorithm? ⭐
 **Answer:**
@@ -976,7 +975,6 @@ Greedy algorithms are _greedy_. They do not look into the future to decide the g
 
 They never look backwards at what they've done to see if they could optimise globally. This is the main difference between Greedy Algorithms and Dynamic Programming.
 
-**Source:** _skerritt.blog_
 
 #### Q2: What Are Greedy Algorithms Used For? ⭐⭐
 **Answer:**
@@ -998,3 +996,5 @@ These algorithms are Greedy, and their Greedy solution gives the optimal solutio
 #### Q6: What's the difference between Greedy and Heuristic algorithm? 
 
 #### Q7: Are there any proof to decide if Greedy approach will produce the best solution? ⭐
+
+<hr>
