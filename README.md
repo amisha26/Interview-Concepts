@@ -629,10 +629,10 @@ What is the bitwise operator to accomplish this when used with an integer?
 **Answer:**
 Simply use the bitwise **not** operator `~`.
 
-```js
-int flipBits(int n) {
+```
+def flipBits(n):
     return ~n;
-}
+
 ```
 
 #### Q7: What are some real world use cases of the bitwise operators? 
