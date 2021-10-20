@@ -691,3 +691,83 @@ now you have `a = 5` and `b = 3`, so numbers are swapped without using a third o
 #### Q6: Explain what is Fibonacci Search technique? ⭐
 
 <hr>
+
+
+## [[⬆]](#toc) <a name=DynamicProgramming>Dynamic Programming</a> Interview Questions
+#### Q1: What is Dynamic Programming? ⭐
+**Answer:**
+**Dynamic programming** is all about ordering your computations in a way that avoids recalculating duplicate work. More specifically, Dynamic Programming is a technique used to avoid computing multiple times the same _subproblem_ in a recursive algorithm. DP algorithms could be implemented with recursion, but they don't have to be.
+
+With dynamic programming, you store your results in some sort of table generally. When you need the answer to a problem, you reference the table and see if you already know what it is. If not, you use the data in your table to give yourself a stepping stone towards the answer.
+
+There are two approaches to apply Dynamic Programming:
+* The **top-down or memoization**. When the recursion does a lot of unecessary calculation, an easy way to solve this is to cache the results and to check before executing the call if the result is already in the cache.
+* The **bottom-up or tabulation approach**. A better way to do this is to get rid of the recursion all-together by evaluating the results in the right order and building the array as we iterate. The partial results are available when needed if the iteration is done in the right order.
+
+```js
+TOP of the tree
+fib(4)
+ fib(3)...................... + fib(2)
+  fib(2)......... + fib(1)       fib(1)........... + fib(0)
+   fib(1) + fib(0)   fib(1)       fib(1)              fib(0)
+    fib(1)   fib(0)
+BOTTOM of the tree
+```
+
+
+**Source:** _stackoverflow.com_
+
+#### Q2: How Dynamic Programming is different from Recursion and Memoization? ⭐⭐
+**Answer:**
+* **Memoization** is when you store previous results of a function call (a real function always returns the same thing, given the same inputs). It doesn't make a difference for algorithmic complexity before the results are stored.
+* **Recursion** is the method of a function calling itself, usually with a smaller dataset. Since most recursive functions can be converted to similar iterative functions, this doesn't make a difference for algorithmic complexity either.
+* **Dynamic programming** is the process of solving easier-to-solve sub-problems and building up the answer from that. Most DP algorithms will be in the running times between a Greedy algorithm (if one exists) and an exponential (enumerate all possibilities and find the best one) algorithm.
+  * DP algorithms could be implemented with recursion, but they don't have to be.
+  * DP algorithms can't be sped up by memoization, since each sub-problem is only ever solved (or the "solve" function called) once.
+
+**Source:** _stackoverflow.com_
+
+#### Q3: What are some characteristics of Dynamic Programming?  ⭐⭐
+**Answer:**
+The key idea of DP is to save answers of overlapping smaller sub-problems to avoid recomputation. For that:
+* An instance is solved using the solutions for smaller instances.
+* The solutions for a smaller instance might be needed multiple times, so store their results in a table.
+* Thus each smaller instance is solved only once.
+* Additional space is used to save time.
+
+**Source:** _stackoverflow.com_
+
+#### Q4: What are pros and cons of Memoization or Top-Down approach? ⭐⭐
+**Answer:**
+**Pros**: 
+ * Memoization is very easy to code (you can generally* write a "memoizer" annotation or wrapper function that automatically does it for you), and should be your first line of approach. It feels more natural. You can take a recursive function and memoize it by a mechanical process (first lookup answer in cache and return it if possible, otherwise compute it recursively and then before returning, you save the calculation in the cache for future use), whereas doing bottom up dynamic programming requires you to encode an order in which solutions are calculated.
+ * Top-down only solves sub-problems used by your solution whereas bottom-up might waste time on redundant sub-problems.
+
+**Cons**: 
+ * With memoization, if the tree is very deep (e.g. <code>fib(10<sup>6</sup>)</code>), you will run out of stack space, because each delayed computation must be put on the stack, and you will have <code>10<sup>6</sup></code> of them.
+
+**Source:** _stackoverflow.com_
+
+#### Q5: Provide an example of Dynamic Program but without Recursion ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q6: What are some pros and cons of Tabulation or Bottom-Up approach? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: What should you consider when choosing between Top-Down vs Bottom-Up solutions for the same problem? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: LIS: Find length of the longest increasing subsequence (LIS) in the array. Solve using DP. ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: What is the difference between Divide and Conquer and Dynamic Programming Algorithms? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: How to use Memoization for N-th Fibonacci number?  ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Is Dijkstra's algorithm a Greedy or Dynamic Programming algorithm? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
