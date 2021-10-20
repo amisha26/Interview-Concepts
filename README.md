@@ -1529,23 +1529,16 @@ Keep two stacks, let's call them `inbox` and `outbox`.
  - Pop and return the top element from `outbox`
 
 
-#### Q8: What are benefits of Circular Queue? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: What are benefits of Circular Queue?
 
-#### Q9: Name some Queue implementations and compare them by efficiency of operations ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: Name some Queue implementations and compare them by efficiency of operations
 
-#### Q10: Compare Array-Based vs List-Based implementation of Queues ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Compare Array-Based vs List-Based implementation of Queues
 
-#### Q11: How to manage Full Circular Queue event? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: How to manage Full Circular Queue event? 
 
-#### Q12: Name most efficient way to implement Stack and Queue together? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Name most efficient way to implement Stack and Queue together? 
 
-#### Q13: How implement a Queue using only One (1) Stack? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: How implement a Queue using only One (1) Stack? 
 
-#### Q14: How do I convert a Queue into the Stack? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: How do I convert a Queue into the Stack? 
