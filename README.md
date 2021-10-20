@@ -669,30 +669,21 @@ now you have `a = 5` and `b = 3`, so numbers are swapped without using a third o
 
 **Source:** _javarevisited.blogspot.com_
 
-#### Q2: Write a function that guarantees to never return the same value twice ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q2: Write a function that guarantees to never return the same value twice 
 
-#### Q3: How can I pair socks from a pile efficiently? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q3: How can I pair socks from a pile efficiently? ⭐
 
-#### Q4: How to check for braces balance in a really large (1T) file in parallel? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q4: How to check for braces balance in a really large (1T) file in parallel? ⭐⭐
 
 ## [[⬆]](#toc) <a name=Divide&Conquer>Divide & Conquer</a> Interview Questions
-#### Q1: Explain how Merge Sort works ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q1: Explain how Merge Sort works 
 
-#### Q2: What is the difference between Divide and Conquer and Dynamic Programming Algorithms? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q2: What is the difference between Divide and Conquer and Dynamic Programming Algorithms? 
 
-#### Q3: Convert a Binary Tree to a Doubly Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q3: Convert a Binary Tree to a Doubly Linked List 
 
-#### Q4: Explain how QuickSort works ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q4: Explain how QuickSort works ⭐
 
-#### Q5: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Compare Greedy vs Divide & Conquer vs Dynamic Programming Algorithms ⭐
 
-#### Q6: Explain what is Fibonacci Search technique? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: Explain what is Fibonacci Search technique? ⭐
