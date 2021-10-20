@@ -362,53 +362,36 @@ The properties that separates a binary search tree from a regular binary tree ar
 
 
 
-#### Q3: Explain the difference between Binary Tree and Binary Search Tree with an example? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q3: Explain the difference between Binary Tree and Binary Search Tree with an example? 
 
-#### Q4: Why do we want to use Binary Search Tree? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q4: Why do we want to use Binary Search Tree? 
 
-#### Q5: What is AVL Tree? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: What is AVL Tree? 
 
-#### Q6: What are advantages and disadvantages of BST? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: What are advantages and disadvantages of BST? 
 
-#### Q7: What is Balanced Tree and why is that important? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: What is Balanced Tree and why is that important? 
 
-#### Q8: Convert a Binary Tree to a Doubly Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: Convert a Binary Tree to a Doubly Linked List 
 
-#### Q9: What is the difference between Heap and Red-Black Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: What is the difference between Heap and Red-Black Tree? ⭐
 
-#### Q10: Explain how to balance AVL Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Explain how to balance AVL Tree? ⭐
 
-#### Q11: How does inserting or deleting nodes affect a Red-Black tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: How does inserting or deleting nodes affect a Red-Black tree? ⭐
 
-#### Q12:  Explain what the main differences between red-black (RB) trees and AVL trees ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12:  Explain what the main differences between red-black (RB) trees and AVL trees ⭐
 
-#### Q13: What is Red-Black tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: What is Red-Black tree? ⭐
 
-#### Q14: Build a Binary Expression Tree for this expression ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: Build a Binary Expression Tree for this expression ⭐
 
-#### Q15: What is the time complexity for insert into Red-Black Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: What is the time complexity for insert into Red-Black Tree? ⭐
 
-#### Q16: Is there any reason anyone should use BSTs instead of AVLs in the first place? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: Is there any reason anyone should use BSTs instead of AVLs in the first place? ⭐
 
-#### Q17: What are main advantages of Tries over Binary Search Trees (BSTs)? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: What are main advantages of Tries over Binary Search Trees (BSTs)? ⭐
 
-#### Q18: What's the main reason for choosing Red Black (RB) trees instead of AVL trees? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: What's the main reason for choosing Red Black (RB) trees instead of AVL trees? ⭐⭐
 
-#### Q19: How is an AVL tree different from a B-tree? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: How is an AVL tree different from a B-tree? ⭐⭐
