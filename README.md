@@ -397,3 +397,267 @@ The properties that separates a binary search tree from a regular binary tree ar
 #### Q19: How is an AVL tree different from a B-tree? ⭐⭐
 
 <hr>
+
+
+## [[⬆]](#toc) <a name=BitManipulation>Bit Manipulation</a> Interview Questions
+#### Q1: What is Bit? ⭐
+**Answer:**
+**Bit** stands for **Binary Digit** and is the _smallest unit of data_ in a computer. Binary digits can only be `0` or `1` because they are a `2- base` number. This means that if we want to represent the number `5` in binary we would have to write `0101`.
+
+
+
+![](https://miro.medium.com/max/1400/1*8iteNc-7zXzaEfE5vLVkXQ.png)
+<br/>
+
+An integer variable usually have a 32 bits limit, which means it consists of 32 bits with its range of 2³² (2 derived from the state of bits — 0 or 1 which is 2 possibilities).
+
+#### Q2: What would the number 22 look like as a Byte? ⭐⭐
+**Answer:**
+A byte is made up of 8 bits and the highest value of a byte is 255, which would mean every bit is set.
+
+Now:
+<table>
+    <tbody>
+    <tr> 
+    <td colspan="11"> 
+    1 
+    Byte ( 8 bits )
+    </td>
+    </tr>
+    <tr> 
+    <td>Place 
+    Value</td>
+    <td> 
+    128
+    </td>
+    <td> 
+    64
+    </td>
+    <td> 
+    32
+    </td>
+    <td> 
+    16
+    </td>
+    <td> 
+    8
+    </td>
+    <td> 
+    4
+    </td>
+    <td> 
+    2
+    </td>
+    <td> 
+    1
+    </td>
+    <td></td>
+    <td></td>
+    </tr>
+    <tr> 
+    <td>&nbsp;</td>
+    <td> 
+    <div align="center">0
+    </td>
+    <td> 
+    <div align="center">0
+    </td>
+    <td> 
+    <div align="center">0
+    </td>
+    <td> 
+    <div align="center">1
+    </td>
+    <td> 
+    <div align="center">0
+    </td>
+    <td> 
+    <div align="center">1
+    </td>
+    <td> 
+    <div align="center">1
+    </td>
+    <td> 
+    <div align="center">0
+    </td>
+    <td>
+    <div align="center">=
+    </td>
+    <td>
+    <div align="center">22
+    </td>
+    </tr>
+    </tbody>
+</table>
+<br/>
+
+Lets take it right to left and add up all those values together:
+
+128 * `0` + 64 * `0` + 32 * `0` + 16 * `1` + 8 * `0` + 4 * `1` + 2 * `1` + 1 * `0`   = 22  
+
+
+
+**Source:** _github.com_
+
+#### Q3: What is a Byte? ⭐⭐
+**Answer:**
+A **byte** is made up of 8 bits and the highest value of a byte is 255, which would mean every bit is set. We will look at why a byte's maximum value is 255 in just a second.
+
+So if all bits are set and the value = 255 my byte would look like this:
+
+<table>
+    <tbody>
+        <tr> 
+            <td colspan="11"> 
+                1 Byte ( 8 bits )
+            </td>
+        </tr>
+    <tr> 
+        <td>
+            Place Value
+        </td>
+        <td> 
+          128
+        </td>
+        <td> 
+          64
+        </td>
+        <td> 
+          32
+        </td>
+        <td> 
+          16
+        </td>
+        <td> 
+          8
+        </td>
+        <td> 
+          4
+        </td>
+        <td> 
+          2
+        </td>
+        <td> 
+          1
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr> 
+        <td>&nbsp;</td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td> 
+          <div align="center">1
+        </td>
+        <td>
+          <div align="center">=
+        </td>
+        <td>255</td>
+    </tr>
+    </tbody>
+</table>
+<br/>
+Lets take it right to left and add up all those values together
+1 + 2 + 4 + 8 + 16 + 32 + 64 + 128 = 255
+
+**Source:** _github.com_
+
+#### Q4: Name some bitwise operations you know ⭐⭐
+**Answer:**
+* **NOT ( ~ )**: Bitwise NOT is an unary operator that flips the bits of the number i.e., if the ith bit is 0, it will change it to 1 and vice versa. 
+* **AND ( & )**: Bitwise AND is a binary operator that operates on two equal-length bit patterns. If both bits in the compared position of the bit patterns are 1, the bit in the resulting bit pattern is 1, otherwise 0.
+* **OR ( | )**: Bitwise OR is also a binary operator that operates on two equal-length bit patterns, similar to bitwise AND. If both bits in the compared position of the bit patterns are 0, the bit in the resulting bit pattern is 0, otherwise 1.
+* **XOR ( ^ )**: Bitwise XOR also takes two equal-length bit patterns. If both bits in the compared position of the bit patterns are 0 or 1, the bit in the resulting bit pattern is 0, otherwise 1.
+
+```js
+AND|0 1      OR|0 1
+---+----    ---+----
+  0|0 0       0|0 1
+  1|0 1       1|1 1
+
+XOR|0 1     NOT|0 1
+---+----    ---+---
+  0|0 1        |1 0
+  1|1 0
+```
+
+* **Left Shift ( << )**: Left shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the left and append 0 at the end.
+
+* **Signed Right Shift ( >> )**: Right shift operator is a binary operator which shift the some number of bits, in the given bit pattern, to the right, preserving the sign (which is the first bit)
+
+* **Zero Fill Right Shift ( >>> )**: Shifts right by pushing zeros in from the left, filling in the left bits with 0s
+
+**Source:** _www.hackerearth.com_
+
+#### Q5: Explain what is Bitwise operation? ⭐⭐
+**Answer:**
+**Bitwise operators** are used for _manipulating a data at the bit level_, also called as bit level programming. It is a fast and simple action, directly supported by the processor, and is used to manipulate values for comparisons and calculations.
+
+On simple low-cost processors, typically, bitwise operations are substantially faster than division, several times faster than multiplication, and sometimes significantly faster than addition.
+
+**Source:** _en.wikipedia.org_
+
+#### Q6: Flip all bits in an integer ⭐⭐
+**Details:**
+I have to flip all bits in a binary representation of an integer. Given:
+
+```js
+10101
+```
+
+The output should be
+
+```js
+01010
+```
+
+What is the bitwise operator to accomplish this when used with an integer?
+
+**Answer:**
+Simply use the bitwise **not** operator `~`.
+
+```js
+int flipBits(int n) {
+    return ~n;
+}
+```
+
+**Source:** _stackoverflow.com_
+
+#### Q7: What are some real world use cases of the bitwise operators? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: Explain how XOR (^) bit operator works ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: What are the advantages of using bitwise operations? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: What is difference between `>>` and `>>>` operators? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: What is Bit Masking? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Flip k least significant bits in an integer ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
