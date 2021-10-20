@@ -1060,38 +1060,26 @@ We go through each node one by one and record each node's reference (or memory a
 
 **Source:** _leetcode.com_
 
-#### Q7: What is the significance of load factor of a Hash Table? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: What is the significance of load factor of a Hash Table?
 
-#### Q8: What does "bucket entries" mean in the context of a hashtable? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: What does "bucket entries" mean in the context of a hashtable?
 
-#### Q9: What is complexity of Hash Table? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: What is complexity of Hash Table?
 
-#### Q10: What is Hash Collision? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: What is Hash Collision?
 
-#### Q11: Explain in simple terms how Hash Tables are implemented? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: Explain in simple terms how Hash Tables are implemented?
 
-#### Q12: Remove duplicates from an unsorted Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Remove duplicates from an unsorted Linked List
 
-#### Q13: Find similar elements from two Linked Lists and return the result as a Linked List ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: Find similar elements from two Linked Lists and return the result as a Linked List
 
-#### Q14: Explain some technics to handle collision in Hash Tables ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: Explain some technics to handle collision in Hash Tables 
 
-#### Q15: How can I pair socks from a pile efficiently? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: How can I pair socks from a pile efficiently? 
 
-#### Q16: Compare lookup operation in Trie vs Hash Table ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: Compare lookup operation in Trie vs Hash Table 
 
-#### Q17: What are some main advantages of Tries over Hash Tables ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: What are some main advantages of Tries over Hash Tables 
 
-#### Q18: How To Choose Between a Hash Table and a Trie (Prefix Tree)? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: How To Choose Between a Hash Table and a Trie (Prefix Tree)? 
