@@ -934,50 +934,34 @@ Graphs are used to solve real-life problems that involve representation of the p
 
 **Source:** _www.khanacademy.org_
 
-#### Q4: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q4: Explain what is DFS (Depth First Search) algorithm for a Graph and how does it work? 
 
-#### Q5: Explain what is `A*` Search? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Explain what is `A*` Search? 
 
-#### Q6: What is difference between BFS and Dijkstra's algorithms when looking for shortest path? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: What is difference between BFS and Dijkstra's algorithms when looking for shortest path? 
 
-#### Q7: Compare Adjacency Lists or Adjacency Matrices for Graphs representation ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: Compare Adjacency Lists or Adjacency Matrices for Graphs representation 
 
-#### Q8: Provide some practical examples of using Depth-First Search (DFS) vs Breadth-First Search (BFS)? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: Provide some practical examples of using Depth-First Search (DFS) vs Breadth-First Search (BFS)? 
 
-#### Q9: What are some applications of Graphs? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: What are some applications of Graphs? 
 
-#### Q10: Explain the BSF (Breadth First Search) traversing method ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Explain the BSF (Breadth First Search) traversing method 
 
-#### Q11: Name some common types and categories of Graphs ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: Name some common types and categories of Graphs 
 
-#### Q12: Why is the complexity of DFS _`O(V+E)`_? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Why is the complexity of DFS _`O(V+E)`_? ⭐
 
-#### Q13: What are key differences between BFS and DFS? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: What are key differences between BFS and DFS? ⭐
 
-#### Q14: What is Bipartite Graph? How to detect one? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: What is Bipartite Graph? How to detect one? ⭐
 
-#### Q15: How do we know whether we need to use BSF or DSF algorithm? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: How do we know whether we need to use BSF or DSF algorithm? ⭐
 
-#### Q16: Why does a Breadth First Search (BFS) use more memory than Depth First Search (DFS)? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: Why does a Breadth First Search (BFS) use more memory than Depth First Search (DFS)? ⭐
 
-#### Q17: Explain what is heuristic cost function in `A*` Search and how to calculate one? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: Explain what is heuristic cost function in `A*` Search and how to calculate one? ⭐
 
-#### Q18: What's the difference between best-first search and `A*` Search? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: What's the difference between best-first search and `A*` Search? ⭐⭐
 
-#### Q19: Illustrate the difference in peak memory consumption between DFS and BFS ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: Illustrate the difference in peak memory consumption between DFS and BFS ⭐⭐
