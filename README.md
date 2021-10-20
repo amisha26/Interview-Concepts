@@ -667,7 +667,6 @@ a = a — b; //5
 
 now you have `a = 5` and `b = 3`, so numbers are swapped without using a third or temp variable.
 
-**Source:** _javarevisited.blogspot.com_
 
 #### Q2: Write a function that guarantees to never return the same value twice 
 
