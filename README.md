@@ -1845,53 +1845,36 @@ Note that the reverse operation, namely _removing_ elements, doesn't need to cha
 
 **Source:** _stackoverflow.com_
 
-#### Q10: What's the difference between External vs Internal sorting? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: What's the difference between External vs Internal sorting? 
 
-#### Q11: Explain how Merge Sort works ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: Explain how Merge Sort works 
 
-#### Q12: Which sort algorithm works best on mostly sorted data? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Which sort algorithm works best on mostly sorted data? 
 
-#### Q13: Why would you use Merge Sort for a Linked List? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: Why would you use Merge Sort for a Linked List? 
 
-#### Q14: Explain how Heap Sort works ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: Explain how Heap Sort works 
 
-#### Q15: When is each Sorting algorithm used? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: When is each Sorting algorithm used? 
 
-#### Q16: When is Quicksort better than Mergesort? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: When is Quicksort better than Mergesort? 
 
-#### Q17: What is "stability" in sorting algorithms and why is it important? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: What is "stability" in sorting algorithms and why is it important? 
 
-#### Q18: Sort a Stack using Recursion ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: Sort a Stack using Recursion 
 
-#### Q19: Sort a Stack using another Stack ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: Sort a Stack using another Stack 
 
-#### Q20: Which of the following algorithms would be the fastest? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q20: Which of the following algorithms would be the fastest? 
 
-#### Q21: Why is Merge sort preferred over Quick sort for sorting Linked Lists? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q21: Why is Merge sort preferred over Quick sort for sorting Linked Lists? ⭐
 
-#### Q22: Explain how Radix Sort works ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q22: Explain how Radix Sort works ⭐
 
-#### Q23: Explain how QuickSort works ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q23: Explain how QuickSort works ⭐
 
-#### Q24: Explain how to find 100 largest numbers out of an array of 1 billion numbers ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q24: Explain how to find 100 largest numbers out of an array of 1 billion numbers ⭐
 
-#### Q25: When Merge Sort is preferred over Quick Sort? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q25: When Merge Sort is preferred over Quick Sort? ⭐
 
-#### Q26: How can I pair socks from a pile efficiently? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q26: How can I pair socks from a pile efficiently? ⭐
