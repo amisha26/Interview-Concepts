@@ -1627,8 +1627,6 @@ When you do one operation in binary search we reduce the size of the problem **b
 
 ![](https://dirask.com/static/bucket/1575232592915-67oY6qqQE1--binarry_search_algorithm.png)
 
-**Source:** _www.tutorialspoint.com_
-
 #### Q2: Explain what is Linear (Sequential) Search and when may we use one? ⭐⭐
 **Answer:**
 **Linear (sequential) search** goes through all possible elements in some array and compare each one with the desired element. It may take up to <code><i>O</i>(<i>n</i>)</code> operations, where N is the size of an array and is widely considered to be horribly slow. In linear search when you perform one operation you reduce the size of the problem _by one_ (when you do one operation in binary search you reduce the size of the problem _by half_). Despite it, it can still be used when:
@@ -1642,70 +1640,48 @@ When you do one operation in binary search we reduce the size of the problem **b
 
 When you ask MySQL something like `SELECT x FROM y WHERE z = t`, and `z` is a column _without_ an index, linear search is performed with all the consequences of it. This is why adding an index to _searchable_ columns is important.
 
-**Source:** _bytescout.com_
+#### Q3: Explain some Linear Search optimization techniques
 
-#### Q3: Explain some Linear Search optimization techniques ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q4: Recursive and Iterative Binary Search: Which one is more efficient and why?
 
-#### Q4: Recursive and Iterative Binary Search: Which one is more efficient and why? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Explain what is Interpolation Search
 
-#### Q5: Explain what is Interpolation Search ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: Write a program for Recursive Binary Search
 
-#### Q6: Write a program for Recursive Binary Search ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: What's wrong with this Recursive Binary Search function?
 
-#### Q7: What's wrong with this Recursive Binary Search function? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: Compare Binary Search vs Linear Search
 
-#### Q8: Compare Binary Search vs Linear Search ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: What is an example of Interpolation Search being slower than Binary Search?
 
-#### Q9: What is an example of Interpolation Search being slower than Binary Search? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Which of the following algorithms would be the fastest?
 
-#### Q10: Which of the following algorithms would be the fastest? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: What is a Jump (or Block) Search?
 
-#### Q11: What is a Jump (or Block) Search? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Explain why complexity of Binary Search is <code><i>O</i>(<i>log n</i>)</code>?
 
-#### Q12: Explain why complexity of Binary Search is <code><i>O</i>(<i>log n</i>)</code>? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: Explain how does the Sentinel Search work?
 
-#### Q13: Explain how does the Sentinel Search work? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: For Binary Search why do we need round down the average? Could we round up instead? 
 
-#### Q14: For Binary Search why do we need round down the average? Could we round up instead? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: Explain what is Fibonacci Search technique? 
 
-#### Q15: Explain what is Fibonacci Search technique? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: How to apply Binary Search <code><i>O</i>(<i>log n</i>)</code> on a sorted Linked List? 
 
-#### Q16: How to apply Binary Search <code><i>O</i>(<i>log n</i>)</code> on a sorted Linked List? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: Explain when and how to use Exponential (aka Doubling or Galloping) Search?  
 
-#### Q17: Explain when and how to use Exponential (aka Doubling or Galloping) Search?  ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: What is the optimal block size for a Jump Search? Explain. 
 
-#### Q18: What is the optimal block size for a Jump Search? Explain. ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: Explain what is Ternary Search? 
 
-#### Q19: Explain what is Ternary Search? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q20: How is it possible to do Binary Search on a Doubly-Linked List in <code><i>O</i>(<i>n</i>)</code> time? 
 
-#### Q20: How is it possible to do Binary Search on a Doubly-Linked List in <code><i>O</i>(<i>n</i>)</code> time? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q21: Why would you ever do Binary Search on a Doubly-Linked list? ⭐
 
-#### Q21: Why would you ever do Binary Search on a Doubly-Linked list? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q22: Is Sentinel Linear Search better than normal Linear Search? ⭐
 
-#### Q22: Is Sentinel Linear Search better than normal Linear Search? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q23: Why use Binary Search if there's ternary search? ⭐
 
-#### Q23: Why use Binary Search if there's ternary search? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q24: When Jump Search is a better alternative than a Binary Search? ⭐
 
-#### Q24: When Jump Search is a better alternative than a Binary Search? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+<hr>
