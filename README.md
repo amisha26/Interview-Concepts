@@ -2083,62 +2083,42 @@ Null-terminated strings are often a _drain on performance_, for the obvious reas
 
 **Source:** _stackoverflow.com_
 
-#### Q6: Mentions some pros and cons of immutable vs mutable Strings ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: Mentions some pros and cons of immutable vs mutable Strings
 
-#### Q7: Remove Invalid Parentheses ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: Remove Invalid Parentheses
 
-#### Q8: How to check if two Strings (words) are Anagrams? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: How to check if two Strings (words) are Anagrams?
 
-#### Q9: How to check if String is a Palindrome? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: How to check if String is a Palindrome?
 
-#### Q10: Find all the Permutations of a String ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Find all the Permutations of a String
 
-#### Q11: Reverse the ordering of words in a String ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: Reverse the ordering of words in a String
 
-#### Q12: What are Pascal Strings? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: What are Pascal Strings? 
 
-#### Q13: What is Rope Data Structure is used for? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: What is Rope Data Structure is used for? 
 
-#### Q14: Explain Knuth-Morris-Pratt (KMP) Algorithm in Plain English ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: Explain Knuth-Morris-Pratt (KMP) Algorithm in Plain English 
 
-#### Q15: Why is `char[]` preferred over String for passwords? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: Why is `char[]` preferred over String for passwords? 
 
-#### Q16: Check for balanced parentheses in linear time using constant space ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: Check for balanced parentheses in linear time using constant space 
 
-#### Q17: What are some advantages of Rope data structure? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: What are some advantages of Rope data structure? 
 
-#### Q18: What are some limitations of Ropes? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: What are some limitations of Ropes? 
 
-#### Q19: Explain Boyer-Moore Algorithm with Example ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: Explain Boyer-Moore Algorithm with Example 
 
-#### Q20: When to use Ropes over StringBuilders? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q20: When to use Ropes over StringBuilders? ⭐
 
-#### Q21: When is Rabin-Karp more effective than KMP or Boyer-Moore? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q21: When is Rabin-Karp more effective than KMP or Boyer-Moore? ⭐
 
-#### Q22: What are the main differences between the Knuth-Morris-Pratt search algorithm and the Boyer-Moore search algorithm? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q22: What are the main differences between the Knuth-Morris-Pratt search algorithm and the Boyer-Moore search algorithm? ⭐
 
-#### Q23: What's the rationale for `null` terminated strings? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q23: What's the rationale for `null` terminated strings? ⭐
 
-#### Q24: Compare Strings vs Ropes from the Performance Analysis ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q24: Compare Strings vs Ropes from the Performance Analysis ⭐
 
-#### Q25: Find all the repeating substrings in a given String (or DNA chromosome sequence) ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q25: Find all the repeating substrings in a given String (or DNA chromosome sequence) ⭐
