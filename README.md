@@ -2252,3 +2252,40 @@ That is a basic (generic) tree structure that can be used for `String` or any ot
 #### Q30: How are B-Trees used in practice? ⭐⭐
 
 #### Q31: Why do we need a separate datastructure like B-Tree for database and file system? ⭐⭐
+
+<hr>
+
+## [[⬆]](#toc) <a name=Trie>Trie</a> Interview Questions
+#### Q1: What is Trie? ⭐
+**Answer:**
+**Trie** (also called **digital tree **or **prefix tree**) is a _tree-based data structure_, which is used for efficient _retrieval_ of a key in a large data-set of strings. Unlike a binary search tree, no node in the tree stores the key associated with that node; instead, its position in the tree defines the key with which it is associated; i.e., **the value of the key is distributed across the structure**. All the descendants of a node have a common prefix of the string associated with that node, and the root is associated with the empty string. Each complete English word has an arbitrary integer value associated with it (see image).
+
+<br/>
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Patricia_trie.svg/1200px-Patricia_trie.svg.png)
+<br/>
+
+**Source:** _medium.com_
+
+#### Q2: What are some Trie implementation strategies? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q3: Name some application of Trie data structure ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q4: What are some advantages and disadvantages of Trie? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q5: Compare lookup operation in Trie vs Hash Table ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q6: What are some main advantages of Tries over Hash Tables ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: How To Choose Between a Hash Table and a Trie (Prefix Tree)? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: What are main advantages of Tries over Binary Search Trees (BSTs)? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+
