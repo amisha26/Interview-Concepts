@@ -1894,7 +1894,6 @@ A **stack** is a **recursive** data structure, so it's:
 * a stack is either empty or
 * it consists of a top and the rest which is a stack by itself;
 
-**Source:** _www.cs.cmu.edu_
 
 #### Q3: Why and when should I use Stack or Queue data structures instead of Arrays/Lists? ⭐⭐
 **Answer:**
@@ -1907,7 +1906,6 @@ More practically you should:
 * Use a stack when you want to get things out in the reverse order than you put them in (LIFO)
 * Use a list when you want to get anything out, regardless of when you put them in (and when you don't want them to automatically be removed).
 
-**Source:** _stackoverflow.com_
 
 #### Q4: Implement Stack using Two Queues (with efficient `push`) ⭐⭐
 **Details:**
@@ -1923,7 +1921,6 @@ Given we have `queue1` and `queue2`:
   - while size of `queue1` is bigger than 1, pipe (dequeue + enqueue) dequeued items from `queue1` into `queue2`
   - dequeue and return the last item of `queue1`, then switch the names of `queue1` and `queue2`
 
-**Source:** _stackoverflow.com_
 
 #### Q5: Implement a Queue using two Stacks ⭐⭐
 **Details:**
@@ -1941,7 +1938,6 @@ Keep two stacks, let's call them `inbox` and `outbox`.
  - If `outbox` is empty, refill it by popping **each** element from `inbox` and pushing it onto `outbox`
  - Pop and return the top element from `outbox`
 
-**Source:** _stackoverflow.com_
 
 #### Q6: What is complexity of `push` and `pop` for a Stack implemented using a LinkedList? ⭐⭐
 **Answer:**
@@ -1964,9 +1960,6 @@ Pop:
 ```js
 [1]->[2]->[3] // returning 5
 ```
-
-
-**Source:** _stackoverflow.com_
 
 #### Q7: Design a Stack that supports retrieving the min element in _`O(1)`_ ⭐⭐
 **Details:**
@@ -1994,7 +1987,6 @@ The followings are the steps to reversing a String using Stack:
 **Answer:**
 They’re very useful because they afford you constant time <code><i>O</i>(<i>1</i>)</code> operations when _inserting_ or _removing_ from the front of a data structure. One common use of a stack is in compilers, where a stack can be used to make sure that the brackets and parentheses in a code file are all balanced, i.e., have an opening and closing counterpart. Stacks are also very useful in evaluating mathematical expressions. 
 
-**Source:** _medium.com_
 
 #### Q10: How to implement Linked List Using Stack? ⭐⭐
 **Answer:**
@@ -2006,49 +1998,33 @@ You can simulate a linked list by using two stacks. One stack is the "list," and
 
 This isn't terribly efficient, by the way, but it would in fact work.
 
-**Source:** _stackoverflow.com_
 
-#### Q11: Compare Array based vs Linked List stack implementations ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: Compare Array based vs Linked List stack implementations
 
-#### Q12: Implement Double Linked List from Stack with min complexity ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: Implement Double Linked List from Stack with min complexity
 
-#### Q13: How reverse Stack without using any (extra) data structure? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: How reverse Stack without using any (extra) data structure?
 
-#### Q14: Find duplicate parenthesis in expression ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: Find duplicate parenthesis in expression
 
-#### Q15: Explain what are Infix, Prefix and Postfix Expressions? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: Explain what are Infix, Prefix and Postfix Expressions?
 
-#### Q16: Sort a Stack using Recursion ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: Sort a Stack using Recursion
 
-#### Q17: Sort a Stack using another Stack ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: Sort a Stack using another Stack
 
-#### Q18: Check if parentheses are balanced using Stack ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18: Check if parentheses are balanced using Stack
 
-#### Q19: Why do we need Prefix and Postfix notations? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: Why do we need Prefix and Postfix notations? 
 
-#### Q20: Given an extremely large file that contains parenthesis, how would you say that the parenthesis are balanced? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q20: Given an extremely large file that contains parenthesis, how would you say that the parenthesis are balanced? 
 
-#### Q21: How to implement 3 Stacks with one Array? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q21: How to implement 3 Stacks with one Array? 
 
-#### Q22: Build a Binary Expression Tree for this expression ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q22: Build a Binary Expression Tree for this expression 
 
-#### Q23: How implement a Queue using only One (1) Stack? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q23: How implement a Queue using only One (1) Stack? 
 
-#### Q24: How do I convert a Queue into the Stack? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q24: How do I convert a Queue into the Stack? 
 
-#### Q25: How to check for braces balance in a really large (1T) file in parallel? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q25: How to check for braces balance in a really large (1T) file in parallel? ⭐
