@@ -2131,8 +2131,6 @@ A **tree** is a collection of entities called **nodes**. Nodes are connected by 
 ![](https://miro.medium.com/max/975/1*PWJiwTxRdQy8A_Y0hAv5Eg.png)
 
 
-**Source:** _www.freecodecamp.org_
-
 #### Q2: Define Binary Tree ⭐
 **Answer:**
 A normal tree has no restrictions on the number of children each node can have. A **binary tree** is made of nodes, where each node contains a "left" pointer, a "right" pointer, and a data element. 
@@ -2148,9 +2146,6 @@ There are three different types of binary trees:
 ![](https://study.com/cimages/multimages/16/0e0646ba-30e5-40d9-b45c-a138f038f05b_full_complete_perfect.png)
 
 
-
-**Source:** _study.com_
-
 #### Q3: What is Height and Depth of a Tree and its Nodes? ⭐⭐
 **Answer:**
 * The **depth of a node** is the length of the _path to its root_
@@ -2162,8 +2157,6 @@ There are three different types of binary trees:
 ![](https://www.growingwiththeweb.com/images/data-structures/avl-tree/height-vs-depth.svg)
 
 
-
-**Source:** _medium.com_
 
 #### Q4: What is Binary Search Tree? ⭐⭐
 **Answer:**
@@ -2182,13 +2175,10 @@ The properties that separates a binary search tree from a regular binary tree ar
 ![](https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.jpg)
 
 
-**Source:** _www.programiz.com_
-
 #### Q5: How to implement a tree data-structure? Provide some code. ⭐⭐
 **Answer:**
 That is a basic (generic) tree structure that can be used for `String` or any other object:
 
-**Source:** _stackoverflow.com_
 
 #### Q6: What's the difference between the data structure Tree and Graph? ⭐⭐
 **Answer:**
@@ -2212,8 +2202,6 @@ That is a basic (generic) tree structure that can be used for `String` or any ot
 
 ![](https://miro.medium.com/max/2262/1*-yHATwTlY2hwceJ93-D-cw.jpeg)
 
-
-**Source:** _stackoverflow.com_
 
 #### Q7: What is the difference between Tree Depth and Height? 
 
