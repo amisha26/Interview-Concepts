@@ -2116,3 +2116,176 @@ Null-terminated strings are often a _drain on performance_, for the obvious reas
 #### Q24: Compare Strings vs Ropes from the Performance Analysis ⭐
 
 #### Q25: Find all the repeating substrings in a given String (or DNA chromosome sequence) ⭐
+
+<hr>
+
+## [[⬆]](#toc) <a name=Trees>Trees</a> Interview Questions
+#### Q1: Define Tree Data Structure ⭐
+**Answer:**
+**Trees** are well-known as a _non-linear_ data structure. They don’t store data in a linear way. They organize data _hierarchically_.
+
+A **tree** is a collection of entities called **nodes**. Nodes are connected by **edges**. Each node contains a **value** or **data** or **key**, and it may or may not have a **child** node. The first node of the tree is called the **root**. **Leaves** are the last nodes on a tree. They are nodes without children.
+
+
+
+![](https://miro.medium.com/max/975/1*PWJiwTxRdQy8A_Y0hAv5Eg.png)
+
+
+**Source:** _www.freecodecamp.org_
+
+#### Q2: Define Binary Tree ⭐
+**Answer:**
+A normal tree has no restrictions on the number of children each node can have. A **binary tree** is made of nodes, where each node contains a "left" pointer, a "right" pointer, and a data element. 
+
+There are three different types of binary trees:
+
+* **Full binary tree**: Every node other than leaf nodes has 2 child nodes.
+* **Complete binary tree**: All levels are filled except possibly the last one, and all nodes are filled in as far left as possible.
+* **Perfect binary tree**: All nodes have two children and all leaves are at the same level.
+
+
+
+![](https://study.com/cimages/multimages/16/0e0646ba-30e5-40d9-b45c-a138f038f05b_full_complete_perfect.png)
+
+
+
+**Source:** _study.com_
+
+#### Q3: What is Height and Depth of a Tree and its Nodes? ⭐⭐
+**Answer:**
+* The **depth of a node** is the length of the _path to its root_
+* The **height of a node** is the number of edges on the longest path from the node to a leaf
+* The **height of a tree** is the length of the _longest path to a leaf_
+
+<br/>
+
+![](https://www.growingwiththeweb.com/images/data-structures/avl-tree/height-vs-depth.svg)
+
+
+
+**Source:** _medium.com_
+
+#### Q4: What is Binary Search Tree? ⭐⭐
+**Answer:**
+**Binary search tree** is a data structure that quickly allows to maintain a _sorted list_ of numbers.
+
+* It is called a _binary tree_ because each tree node has maximum of two children.
+* It is called a _search tree_ because it can be used to search for the presence of a number in `O(log n)` time.
+
+The properties that separates a binary search tree from a regular binary tree are:
+
+* All nodes of left subtree are less than root node
+* All nodes of right subtree are more than root node
+* Both subtrees of each node are also BSTs i.e. they have the above two properties
+
+
+![](https://cdn.programiz.com/sites/tutorial2program/files/bst-vs-not-bst.jpg)
+
+
+**Source:** _www.programiz.com_
+
+#### Q5: How to implement a tree data-structure? Provide some code. ⭐⭐
+**Answer:**
+That is a basic (generic) tree structure that can be used for `String` or any other object:
+
+**Source:** _stackoverflow.com_
+
+#### Q6: What's the difference between the data structure Tree and Graph? ⭐⭐
+**Answer:**
+**Graph:**
+* Consists of a set of vertices (or nodes) and a set of edges connecting some or all of them
+* Any edge can connect any two vertices that aren't already connected by an identical edge (in the same direction, in the case of a directed graph)
+* Doesn't have to be connected (the edges don't have to connect all vertices together): a single graph can consist of a few disconnected sets of vertices
+* Could be directed or undirected (which would apply to all edges in the graph)
+
+**Tree:**
+* A type of graph (fit with in the category of Directed Acyclic Graphs (or a DAG))
+* Vertices are more commonly called "nodes"
+* Edges are directed and represent an "is child of" (or "is parent of") relationship
+* Each node (except the root node) has exactly one parent (and zero or more children)
+* Has exactly one "root" node (if the tree has at least one node), which is a node without a parent
+* Has to be connected
+* Is acyclic, meaning it has no cycles: "a cycle is a path [AKA sequence] of edges and vertices wherein a vertex is reachable from itself"
+* Trees aren't a recursive data structure
+
+
+
+![](https://miro.medium.com/max/2262/1*-yHATwTlY2hwceJ93-D-cw.jpeg)
+
+
+**Source:** _stackoverflow.com_
+
+#### Q7: What is the difference between Tree Depth and Height? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: Explain the difference between Binary Tree and Binary Search Tree with an example? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: Provide some practical examples of using Depth-First Search (DFS) vs Breadth-First Search (BFS)? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: Why do we want to use Binary Search Tree? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: What is AVL Tree? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: What are advantages and disadvantages of BST? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: What is Balanced Tree and why is that important? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: What is Diameter of a Tree? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q15: What is the difference between Heap and Red-Black Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q16: Explain how to balance AVL Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q17: How does inserting or deleting nodes affect a Red-Black tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q18:  Explain what the main differences between red-black (RB) trees and AVL trees ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q19: What is Red-Black tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q20: What is the time complexity for insert into Red-Black Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q21: Explain what is B-Tree? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q22: How do we know whether we need to use BSF or DSF algorithm? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q23: Is there any reason anyone should use BSTs instead of AVLs in the first place? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q24: Why does a Breadth First Search (BFS) use more memory than Depth First Search (DFS)? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q25: Explain a B-Tree data structure for 5 years old ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q26: What's the main reason for choosing Red Black (RB) trees instead of AVL trees? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q27: Why is a Hash Table not used instead of a B-Tree in order to access data inside a database? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q28: How is an AVL tree different from a B-tree? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q29: What are the differences between B trees and B+ trees? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q30: How are B-Trees used in practice? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q31: Why do we need a separate datastructure like B-Tree for database and file system? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
