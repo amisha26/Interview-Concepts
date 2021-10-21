@@ -1864,3 +1864,191 @@ Note that the reverse operation, namely _removing_ elements, doesn't need to cha
 #### Q25: When Merge Sort is preferred over Quick Sort? ⭐
 
 #### Q26: How can I pair socks from a pile efficiently? ⭐
+
+
+<hr>
+
+
+## [[⬆]](#toc) <a name=Stacks>Stacks</a> Interview Questions
+#### Q1: Define Stack ⭐
+**Answer:**
+A **Stack** is a container of objects that are inserted and removed according to the last-in first-out (**LIFO**) principle. In the pushdown stacks only two operations are allowed: push the item into the stack, and pop the item out of the stack.
+
+There are basically three operations that can be performed on stacks. They are:
+ 
+1. inserting an item into a stack (**push**). 
+2. deleting an item from the stack (**pop**). 
+3. displaying the contents of the stack (**peek** or **top**).
+
+A stack is a limited access data structure - elements can be added and removed from the stack only at the top. push adds an item to the top of the stack, pop removes the item from the top. A helpful analogy is to think of a stack of books; you can remove only the top book, also you can add a new book on the top.
+
+![](https://user-images.githubusercontent.com/13550565/85218531-fea33d80-b3cd-11ea-8ba4-77c37d446d07.png)
+
+
+**Source:** _www.cs.cmu.edu_
+
+#### Q2: Explain why Stack is a recursive data structure ⭐
+**Answer:**
+A **stack** is a **recursive** data structure, so it's:
+
+* a stack is either empty or
+* it consists of a top and the rest which is a stack by itself;
+
+**Source:** _www.cs.cmu.edu_
+
+#### Q3: Why and when should I use Stack or Queue data structures instead of Arrays/Lists? ⭐⭐
+**Answer:**
+Because they help manage your data in more a _particular_ way than arrays and lists. It means that when you're debugging a problem, you won't have to wonder if someone randomly inserted an element into the middle of your list, messing up some invariants.
+
+Arrays and lists are random access. They are very flexible and also easily *corruptible*. If you want to manage your data as FIFO or LIFO it's best to use those, already implemented, collections.
+
+More practically you should:
+* Use a queue when you want to get things out in the order that you put them in (FIFO)
+* Use a stack when you want to get things out in the reverse order than you put them in (LIFO)
+* Use a list when you want to get anything out, regardless of when you put them in (and when you don't want them to automatically be removed).
+
+**Source:** _stackoverflow.com_
+
+#### Q4: Implement Stack using Two Queues (with efficient `push`) ⭐⭐
+**Details:**
+Given two queues with their standard operations (`enqueue`, `dequeue`, `isempty`, `size`), implement a stack with its standard operations (`pop`, `push`, `isempty`, `size`). The stack should be efficient when pushing an item.
+
+**Answer:**
+Given we have `queue1` and `queue2`:
+
+**push** - `O(1)`: 
+  - enqueue in `queue1`
+
+**pop** - `O(n)`:
+  - while size of `queue1` is bigger than 1, pipe (dequeue + enqueue) dequeued items from `queue1` into `queue2`
+  - dequeue and return the last item of `queue1`, then switch the names of `queue1` and `queue2`
+
+**Source:** _stackoverflow.com_
+
+#### Q5: Implement a Queue using two Stacks ⭐⭐
+**Details:**
+Suppose we have two stacks and no other temporary variable. Is to possible to "construct" a queue data structure using only the two stacks?
+
+**Answer:**
+Keep two stacks, let's call them `inbox` and `outbox`.
+
+**Enqueue**:
+
+ - Push the new element onto `inbox`
+
+**Dequeue**:
+
+ - If `outbox` is empty, refill it by popping **each** element from `inbox` and pushing it onto `outbox`
+ - Pop and return the top element from `outbox`
+
+**Source:** _stackoverflow.com_
+
+#### Q6: What is complexity of `push` and `pop` for a Stack implemented using a LinkedList? ⭐⭐
+**Answer:**
+<code><i>O</i>(<i>1</i>)</code>. Note, you don't have to insert at the end of the list. If you insert at the front of a (singly-linked) list, they are both `O(1)`.
+
+Stack contains 1,2,3:
+
+```py
+[1]->[2]->[3]
+```
+
+Push 5:
+
+```js
+[5]->[1]->[2]->[3]
+```
+
+Pop:
+
+```js
+[1]->[2]->[3] // returning 5
+```
+
+
+**Source:** _stackoverflow.com_
+
+#### Q7: Design a Stack that supports retrieving the min element in _`O(1)`_ ⭐⭐
+**Details:**
+Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+
+* `push(x)` - Push element x onto stack.
+* `pop()` - Removes the element on top of the stack.
+* `top()` - Get the top element.
+* `getMin()` - Retrieve the **minimum** element in the stack.
+
+**Answer:**
+Using a linked list store the current minimum value. When you add a new number it looks at the previous min and changes the current min to the current value if the current value is lower. Note, each node stores the `min` value _at or below_ it so we don't need to recalculate `min` on pop.
+
+#### Q8: Reverse a String using Stack ⭐⭐
+**Answer:**
+The followings are the steps to reversing a String using Stack:
+
+1.  `String` to `char[]`.
+2.  Create a `Stack`.
+3.  **Push** all characters, one by one.
+4.  Then **Pop** all characters, one by one and put into the `char[]`.
+5.  Finally, convert to the `String`.
+
+#### Q9: Why Are Stacks Useful? ⭐⭐
+**Answer:**
+They’re very useful because they afford you constant time <code><i>O</i>(<i>1</i>)</code> operations when _inserting_ or _removing_ from the front of a data structure. One common use of a stack is in compilers, where a stack can be used to make sure that the brackets and parentheses in a code file are all balanced, i.e., have an opening and closing counterpart. Stacks are also very useful in evaluating mathematical expressions. 
+
+**Source:** _medium.com_
+
+#### Q10: How to implement Linked List Using Stack? ⭐⭐
+**Answer:**
+You can simulate a linked list by using two stacks. One stack is the "list," and the other is used for temporary storage.
+
+* To **add** an item at the head, simply push the item onto the stack. 
+* To **remove** from the head, pop from the stack.
+* To **insert** into the middle somewhere, pop items from the "list" stack and push them onto the temporary stack until you get to your insertion point. Push the new item onto the "list" stack, then pop from the temporary stack and push back onto the "list" stack. Deletion of an arbitrary node is similar.
+
+This isn't terribly efficient, by the way, but it would in fact work.
+
+**Source:** _stackoverflow.com_
+
+#### Q11: Compare Array based vs Linked List stack implementations ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Implement Double Linked List from Stack with min complexity ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: How reverse Stack without using any (extra) data structure? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: Find duplicate parenthesis in expression ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q15: Explain what are Infix, Prefix and Postfix Expressions? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q16: Sort a Stack using Recursion ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q17: Sort a Stack using another Stack ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q18: Check if parentheses are balanced using Stack ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q19: Why do we need Prefix and Postfix notations? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q20: Given an extremely large file that contains parenthesis, how would you say that the parenthesis are balanced? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q21: How to implement 3 Stacks with one Array? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q22: Build a Binary Expression Tree for this expression ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q23: How implement a Queue using only One (1) Stack? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q24: How do I convert a Queue into the Stack? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q25: How to check for braces balance in a really large (1T) file in parallel? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
