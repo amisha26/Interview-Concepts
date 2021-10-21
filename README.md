@@ -2215,77 +2215,52 @@ That is a basic (generic) tree structure that can be used for `String` or any ot
 
 **Source:** _stackoverflow.com_
 
-#### Q7: What is the difference between Tree Depth and Height? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: What is the difference between Tree Depth and Height? 
 
-#### Q8: Explain the difference between Binary Tree and Binary Search Tree with an example? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: Explain the difference between Binary Tree and Binary Search Tree with an example? 
 
-#### Q9: Provide some practical examples of using Depth-First Search (DFS) vs Breadth-First Search (BFS)? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q9: Provide some practical examples of using Depth-First Search (DFS) vs Breadth-First Search (BFS)? 
 
-#### Q10: Why do we want to use Binary Search Tree? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q10: Why do we want to use Binary Search Tree? 
 
-#### Q11: What is AVL Tree? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q11: What is AVL Tree? 
 
-#### Q12: What are advantages and disadvantages of BST? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q12: What are advantages and disadvantages of BST? 
 
-#### Q13: What is Balanced Tree and why is that important? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q13: What is Balanced Tree and why is that important? 
 
-#### Q14: What is Diameter of a Tree? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q14: What is Diameter of a Tree? 
 
-#### Q15: What is the difference between Heap and Red-Black Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q15: What is the difference between Heap and Red-Black Tree? ⭐
 
-#### Q16: Explain how to balance AVL Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q16: Explain how to balance AVL Tree? ⭐
 
-#### Q17: How does inserting or deleting nodes affect a Red-Black tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q17: How does inserting or deleting nodes affect a Red-Black tree? ⭐
 
-#### Q18:  Explain what the main differences between red-black (RB) trees and AVL trees ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q18:  Explain what the main differences between red-black (RB) trees and AVL trees ⭐
 
-#### Q19: What is Red-Black tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q19: What is Red-Black tree? ⭐
 
-#### Q20: What is the time complexity for insert into Red-Black Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q20: What is the time complexity for insert into Red-Black Tree? ⭐
 
-#### Q21: Explain what is B-Tree? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q21: Explain what is B-Tree? ⭐
 
-#### Q22: How do we know whether we need to use BSF or DSF algorithm? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q22: How do we know whether we need to use BSF or DSF algorithm? ⭐
 
-#### Q23: Is there any reason anyone should use BSTs instead of AVLs in the first place? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q23: Is there any reason anyone should use BSTs instead of AVLs in the first place? ⭐
 
-#### Q24: Why does a Breadth First Search (BFS) use more memory than Depth First Search (DFS)? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q24: Why does a Breadth First Search (BFS) use more memory than Depth First Search (DFS)? ⭐
 
-#### Q25: Explain a B-Tree data structure for 5 years old ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q25: Explain a B-Tree data structure for 5 years old ⭐
 
-#### Q26: What's the main reason for choosing Red Black (RB) trees instead of AVL trees? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q26: What's the main reason for choosing Red Black (RB) trees instead of AVL trees? ⭐⭐
 
-#### Q27: Why is a Hash Table not used instead of a B-Tree in order to access data inside a database? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q27: Why is a Hash Table not used instead of a B-Tree in order to access data inside a database? ⭐⭐
 
-#### Q28: How is an AVL tree different from a B-tree? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q28: How is an AVL tree different from a B-tree? ⭐⭐
 
-#### Q29: What are the differences between B trees and B+ trees? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q29: What are the differences between B trees and B+ trees? ⭐⭐
 
-#### Q30: How are B-Trees used in practice? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q30: How are B-Trees used in practice? ⭐⭐
 
-#### Q31: Why do we need a separate datastructure like B-Tree for database and file system? ⭐⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q31: Why do we need a separate datastructure like B-Tree for database and file system? ⭐⭐
