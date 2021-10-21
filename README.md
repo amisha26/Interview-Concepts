@@ -1705,8 +1705,6 @@ How it works:
 ![](https://camo.githubusercontent.com/383b23979d4d7f279f8fb285b36bcdd357b10a35/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f632f63382f427562626c652d736f72742d6578616d706c652d33303070782e676966)
 
 
-**Source:** _github.com_
-
 #### Q2: Why Sorting algorithms are important? ⭐
 **Answer:**
 Efficient sorting is important for **optimizing the efficiency of other algorithms** (such as search and merge algorithms) that require input data to be in sorted lists. Sorting is also often useful for canonicalizing data and for producing human-readable output. Sorting have direct applications in database algorithms, divide and conquer methods, data structure algorithms, and many more.
@@ -1721,8 +1719,6 @@ The idea is to **produce an output in the same memory space that contains the in
 
 **Quicksort** is one example of In-Place Sorting.
 
-**Source:** _stackoverflow.com_
-
 #### Q4: Explain what is ideal Sorting algorithm? ⭐⭐
 **Answer:**
 The **ideal sorting algorithm** would have the following properties:
@@ -1734,8 +1730,6 @@ The **ideal sorting algorithm** would have the following properties:
 * **Adaptive**: Speeds up to O(n) when data is nearly sorted or when there are few unique keys.
 
 There is **no** algorithm that has all of these properties, and so the choice of sorting algorithm depends on the application.
-
-**Source:** _www.toptal.com_
 
 #### Q5: Classify Sorting Algorithms ⭐⭐
 **Answer:**
@@ -1751,7 +1745,6 @@ Sorting algorithms can be categorised based on the following parameters:
     *  `Insertion sort` and `Quick-sort` are `in place` sort as we move the elements about the pivot and do not actually use a separate array which is NOT the case in merge sort where the size of the input must be allocated beforehand to store the output during the sort.
     *  `Merge Sort` is an example of `out place` sort as it require extra memory space for it’s operations.
 
-**Source:** _www.freecodecamp.org_
 
 #### Q6: Explain how Insertion Sort works ⭐⭐
 **Answer:**
@@ -1770,7 +1763,6 @@ Steps on how it works:
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 
-**Source:** _medium.com_
 
 #### Q7: What are advantages and disadvantages of Bubble Sort? ⭐⭐
 **Answer:**
@@ -1783,9 +1775,6 @@ Steps on how it works:
 **Disadvantages:**
 * It is very slow and runs in `O(n^2)` time in worst as well as average case. Because of that Bubble sort does not deal well with a large set of data. For example Bubble sort is three times slower than **Quicksort** even for n = 100
 
-
-
-**Source:** _en.wikipedia.org_
 
 #### Q8: How would you optimise Bubble Sort? ⭐⭐
 **Answer:**
@@ -1834,7 +1823,6 @@ public static void bubblesort(int[] a) {
 ```
 This allows to skip over many elements, resulting in about a worst case 50% improvement in comparison count (though no improvement in swap counts), and adds very little complexity.
 
-**Source:** _stackoverflow.com_
 
 #### Q9: Insert an item in a sorted Linked List maintaining order ⭐⭐
 **Answer:**
@@ -1842,8 +1830,6 @@ The `add()` method below walks down the list until it finds the appropriate posi
 
 Note that the reverse operation, namely _removing_ elements, doesn't need to change, because you are simply throwing things away which would not change any order in the list.
 
-
-**Source:** _stackoverflow.com_
 
 #### Q10: What's the difference between External vs Internal sorting? 
 
