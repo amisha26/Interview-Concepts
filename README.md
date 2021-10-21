@@ -2267,25 +2267,18 @@ That is a basic (generic) tree structure that can be used for `String` or any ot
 
 **Source:** _medium.com_
 
-#### Q2: What are some Trie implementation strategies? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q2: What are some Trie implementation strategies?
 
-#### Q3: Name some application of Trie data structure ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q3: Name some application of Trie data structure
 
-#### Q4: What are some advantages and disadvantages of Trie? ⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q4: What are some advantages and disadvantages of Trie?
 
-#### Q5: Compare lookup operation in Trie vs Hash Table ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q5: Compare lookup operation in Trie vs Hash Table 
 
-#### Q6: What are some main advantages of Tries over Hash Tables ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q6: What are some main advantages of Tries over Hash Tables 
 
-#### Q7: How To Choose Between a Hash Table and a Trie (Prefix Tree)? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q7: How To Choose Between a Hash Table and a Trie (Prefix Tree)? 
 
-#### Q8: What are main advantages of Tries over Binary Search Trees (BSTs)? ⭐⭐⭐⭐
-Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+#### Q8: What are main advantages of Tries over Binary Search Trees (BSTs)? 
 
 
