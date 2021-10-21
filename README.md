@@ -2265,7 +2265,6 @@ That is a basic (generic) tree structure that can be used for `String` or any ot
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Patricia_trie.svg/1200px-Patricia_trie.svg.png)
 <br/>
 
-**Source:** _medium.com_
 
 #### Q2: What are some Trie implementation strategies?
 
