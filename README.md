@@ -1685,3 +1685,213 @@ When you ask MySQL something like `SELECT x FROM y WHERE z = t`, and `z` is a co
 #### Q24: When Jump Search is a better alternative than a Binary Search? ⭐
 
 <hr>
+
+
+## [[⬆]](#toc) <a name=Sorting>Sorting</a> Interview Questions
+#### Q1: Explain how Bubble Sort works ⭐
+**Answer:**
+**Bubble Sort** is based on the idea of repeatedly _comparing_ pairs of adjacent elements and then swapping their positions if they are in the wrong order. Bubble sort is a _stable_, _in-place_ sort algorithm.
+
+How it works:
+* In an unsorted array of `n` elements, start with the first two elements and sort them in ascending order. (Compare the element to check which one is greater).
+* Compare the second and third element to check which one is greater, and sort them in ascending order.
+* Compare the third and fourth element to check which one is greater, and sort them in ascending order.
+* ...
+* Repeat steps 1–`n` until no more swaps are required.
+
+**Visualisation:**
+
+
+![](https://camo.githubusercontent.com/383b23979d4d7f279f8fb285b36bcdd357b10a35/68747470733a2f2f75706c6f61642e77696b696d656469612e6f72672f77696b6970656469612f636f6d6d6f6e732f632f63382f427562626c652d736f72742d6578616d706c652d33303070782e676966)
+
+
+**Source:** _github.com_
+
+#### Q2: Why Sorting algorithms are important? ⭐
+**Answer:**
+Efficient sorting is important for **optimizing the efficiency of other algorithms** (such as search and merge algorithms) that require input data to be in sorted lists. Sorting is also often useful for canonicalizing data and for producing human-readable output. Sorting have direct applications in database algorithms, divide and conquer methods, data structure algorithms, and many more.
+
+**Source:** _en.wikipedia.org_
+
+#### Q3: What is meant by to "Sort in Place"? ⭐⭐
+**Answer:**
+The idea of an in-place algorithm isn't unique to sorting, but sorting is probably the most important case, or at least the most well-known. The idea is about space efficiency - using the minimum amount of RAM, hard disk or other storage that you can get away with. 
+
+The idea is to **produce an output in the same memory space that contains the input** by successively transforming that data until the output is produced. This avoids the need to use twice the storage - one area for the input and an equal-sized area for the output.
+
+**Quicksort** is one example of In-Place Sorting.
+
+**Source:** _stackoverflow.com_
+
+#### Q4: Explain what is ideal Sorting algorithm? ⭐⭐
+**Answer:**
+The **ideal sorting algorithm** would have the following properties:
+
+* **Stable**: Equal keys aren’t reordered.
+* **Operates in place:** requiring O(1) extra space.
+* Worst-case `O(n log n)` key comparisons.
+* Worst-case `O(n)` swaps.
+* **Adaptive**: Speeds up to O(n) when data is nearly sorted or when there are few unique keys.
+
+There is **no** algorithm that has all of these properties, and so the choice of sorting algorithm depends on the application.
+
+**Source:** _www.toptal.com_
+
+#### Q5: Classify Sorting Algorithms ⭐⭐
+**Answer:**
+Sorting algorithms can be categorised based on the following parameters:
+
+1.  **Based on Number of Swaps or Inversion**. This is the number of times the algorithm swaps elements to sort the input. `Selection Sort` requires the minimum number of swaps.
+2.  **Based on Number of Comparisons**. This is the number of times the algorithm compares elements to sort the input. Using Big-O notation, the sorting algorithm examples listed above require at least <code><i>O</i>(<i>n log n</i>)</code> comparisons in the best case and <code><i>O</i>(<i>n</i><sup>2</sup>)</code> comparisons in the worst case for most of the outputs.
+3.  **Based on Recursion or Non-Recursion**. Some sorting algorithms, such as `Quick Sort`, use recursive techniques to sort the input. Other sorting algorithms, such as `Selection Sort` or `Insertion Sort`, use non-recursive techniques. Finally, some sorting algorithm, such as `Merge Sort`, make use of both recursive as well as non-recursive techniques to sort the input.
+4.  **Based on Stability**. Sorting algorithms are said to be `stable` if the algorithm maintains the relative order of elements with equal keys. In other words, two equivalent elements remain in the same order in the sorted output as they were in the input.
+    *  `Insertion sort`, `Merge Sort`, and `Bubble Sort` are stable
+    *  `Heap Sort` and `Quick Sort` are not stable
+5.  **Based on Extra Space Requirement.** Sorting algorithms are said to be _in place_ if they require a constant <code><i>O</i>(<i>1</i>)</code> extra space for sorting.
+    *  `Insertion sort` and `Quick-sort` are `in place` sort as we move the elements about the pivot and do not actually use a separate array which is NOT the case in merge sort where the size of the input must be allocated beforehand to store the output during the sort.
+    *  `Merge Sort` is an example of `out place` sort as it require extra memory space for it’s operations.
+
+**Source:** _www.freecodecamp.org_
+
+#### Q6: Explain how Insertion Sort works ⭐⭐
+**Answer:**
+**Insertion Sort** is an _in-place_, _stable_, _comparison-based_ sorting algorithm. The idea is to maintain a sub-list which is always sorted. An element which is to be 'insert'ed in this sorted sub-list, has to find its appropriate place and then it has to be inserted there. Hence the name, **insertion sort**.
+
+Steps on how it works:
+* If it is the first element, it is already sorted.
+* Pick the next element.
+* Compare with all the elements in sorted sub-list.
+* Shift all the the elements in sorted sub-list that is greater than the value to be sorted.
+* Insert the value.
+* Repeat until list is sorted.
+
+**Visualisation:**
+
+
+![](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+
+**Source:** _medium.com_
+
+#### Q7: What are advantages and disadvantages of Bubble Sort? ⭐⭐
+**Answer:**
+**Advantages:**
+
+* Simple to understand
+* Ability to detect that the list is sorted efficiently is built into the algorithm. When the list is already sorted (best-case), the complexity of bubble sort is only `O(n)`. 
+
+
+**Disadvantages:**
+* It is very slow and runs in `O(n^2)` time in worst as well as average case. Because of that Bubble sort does not deal well with a large set of data. For example Bubble sort is three times slower than **Quicksort** even for n = 100
+
+
+
+**Source:** _en.wikipedia.org_
+
+#### Q8: How would you optimise Bubble Sort? ⭐⭐
+**Answer:**
+In Bubble sort, you know that after `k` passes, the largest `k` elements are sorted at the `k` last entries of the array, so the conventional Bubble sort uses:
+```java
+public static void bubblesort(int[] a) {
+  for (int i = 1; i < a.length; i++) {
+    boolean is_sorted = true;
+
+    for (int j = 0; j < a.length - i; j++) { // skip the already sorted largest elements, compare to a.length - 1
+      if (a[j] > a[j+1]) {
+         int temp = a[j];
+         a[j] = a[j+1];
+         a[j+1] = temp;
+         is_sorted = false;
+      }
+    }
+
+    if(is_sorted) return;
+  }
+}
+```
+Now, that would still do a lot of unnecessary iterations when the array has a long sorted tail of largest elements. If you remember where you made your _last swap_, you know that after that index, there are the largest elements in order, so:
+
+```java
+public static void bubblesort(int[] a) {
+  int lastSwap = a.length - 1;
+  for (int i = 1; i< a.length; i++) {
+    boolean is_sorted = true;
+    int currentSwap = -1;
+
+    for (int j = 0; j < lastSwap; j++) { // compare to a.length - i
+      if (a[j] > a[j+1]) {
+         int temp = a[j];
+         a[j] = a[j+1];
+         a[j+1] = temp;
+         is_sorted = false;
+         currentSwap = j;
+      }
+    }
+
+    if (is_sorted) return;
+    lastSwap = currentSwap;
+  }
+}
+```
+This allows to skip over many elements, resulting in about a worst case 50% improvement in comparison count (though no improvement in swap counts), and adds very little complexity.
+
+**Source:** _stackoverflow.com_
+
+#### Q9: Insert an item in a sorted Linked List maintaining order ⭐⭐
+**Answer:**
+The `add()` method below walks down the list until it finds the appropriate position. Then, it splices in the new node and updates the `start`, `prev`, and `curr` pointers where applicable.
+
+Note that the reverse operation, namely _removing_ elements, doesn't need to change, because you are simply throwing things away which would not change any order in the list.
+
+
+**Source:** _stackoverflow.com_
+
+#### Q10: What's the difference between External vs Internal sorting? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: Explain how Merge Sort works ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: Which sort algorithm works best on mostly sorted data? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: Why would you use Merge Sort for a Linked List? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: Explain how Heap Sort works ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q15: When is each Sorting algorithm used? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q16: When is Quicksort better than Mergesort? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q17: What is "stability" in sorting algorithms and why is it important? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q18: Sort a Stack using Recursion ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q19: Sort a Stack using another Stack ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q20: Which of the following algorithms would be the fastest? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q21: Why is Merge sort preferred over Quick sort for sorting Linked Lists? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q22: Explain how Radix Sort works ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q23: Explain how QuickSort works ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q24: Explain how to find 100 largest numbers out of an array of 1 billion numbers ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q25: When Merge Sort is preferred over Quick Sort? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q26: How can I pair socks from a pile efficiently? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
