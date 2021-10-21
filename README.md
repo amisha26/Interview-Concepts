@@ -2031,13 +2031,11 @@ This isn't terribly efficient, by the way, but it would in fact work.
 
 <hr>
 
-
 ## [[⬆]](#toc) <a name=Strings>Strings</a> Interview Questions
 #### Q1: What is String in Data Structures? ⭐
 **Answer:**
 A **string** is generally considered as a **data type** and is often implemented as an **array data structure** of bytes (or words) that stores a sequence of elements, typically characters, using some character encoding. String may also denote more general arrays or other sequence (or list) data types and structures.
 
-**Source:** _dev.to_
 
 #### Q2: What is the difference between Strings vs. Char arrays? ⭐⭐
 **Answer:**
@@ -2053,7 +2051,6 @@ A **string** is generally considered as a **data type** and is often implemented
 * Dynamic allocation
 * More built-in functions to support string manipulations
 
-**Source:** _dev.to_
 
 #### Q3: Reverse a String using Stack ⭐⭐
 **Answer:**
@@ -2071,8 +2068,6 @@ Strings can either be **mutable** or **immutable**.
 * When a string is **immutable** it means that it's fixed allocated. So your string it's unique and can't be modified. If you change it, a copy of that string is created and the original string is deallocated instead. 
 * When a string is **mutable** it means that it's dynamically allocated, so your string can be modified.
 
-**Source:** _dev.to_
-
 #### Q5: What is a null-terminated String? ⭐⭐
 **Answer:**
 A "string" is really just an array of `char`s; a null-terminated string is one where a null character `'\0'` marks the end of the string (not necessarily the end of the array). All strings in code (delimited by double quotes `""`) are automatically null-terminated by the compiler.
@@ -2081,7 +2076,6 @@ So for example, `"hi"` is the same as `{'h', 'i', '\0'}`.
 
 Null-terminated strings are often a _drain on performance_, for the obvious reason that the time taken to discover the length depends on the length. The usual solution is to do both - keep the length and maintain the null terminator. It's not much extra work and means that you are always ready to pass the string to any function.
 
-**Source:** _stackoverflow.com_
 
 #### Q6: Mentions some pros and cons of immutable vs mutable Strings
 
