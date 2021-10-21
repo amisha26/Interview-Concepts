@@ -2028,3 +2028,117 @@ This isn't terribly efficient, by the way, but it would in fact work.
 #### Q24: How do I convert a Queue into the Stack? 
 
 #### Q25: How to check for braces balance in a really large (1T) file in parallel? ⭐
+
+<hr>
+
+
+## [[⬆]](#toc) <a name=Strings>Strings</a> Interview Questions
+#### Q1: What is String in Data Structures? ⭐
+**Answer:**
+A **string** is generally considered as a **data type** and is often implemented as an **array data structure** of bytes (or words) that stores a sequence of elements, typically characters, using some character encoding. String may also denote more general arrays or other sequence (or list) data types and structures.
+
+**Source:** _dev.to_
+
+#### Q2: What is the difference between Strings vs. Char arrays? ⭐⭐
+**Answer:**
+**Char arrays**: 
+* Static-sized
+* Fast access
+* Few built-in methods to manipulate strings
+* A char array doesn’t define a data type
+
+**Strings**:
+* Slower access
+* Define a data type
+* Dynamic allocation
+* More built-in functions to support string manipulations
+
+**Source:** _dev.to_
+
+#### Q3: Reverse a String using Stack ⭐⭐
+**Answer:**
+The followings are the steps to reversing a String using Stack:
+
+1.  `String` to `char[]`.
+2.  Create a `Stack`.
+3.  **Push** all characters, one by one.
+4.  Then **Pop** all characters, one by one and put into the `char[]`.
+5.  Finally, convert to the `String`.
+
+#### Q4: What is strings mutability and immutability? ⭐⭐
+**Answer:**
+Strings can either be **mutable** or **immutable**. 
+* When a string is **immutable** it means that it's fixed allocated. So your string it's unique and can't be modified. If you change it, a copy of that string is created and the original string is deallocated instead. 
+* When a string is **mutable** it means that it's dynamically allocated, so your string can be modified.
+
+**Source:** _dev.to_
+
+#### Q5: What is a null-terminated String? ⭐⭐
+**Answer:**
+A "string" is really just an array of `char`s; a null-terminated string is one where a null character `'\0'` marks the end of the string (not necessarily the end of the array). All strings in code (delimited by double quotes `""`) are automatically null-terminated by the compiler.
+
+So for example, `"hi"` is the same as `{'h', 'i', '\0'}`.
+
+Null-terminated strings are often a _drain on performance_, for the obvious reason that the time taken to discover the length depends on the length. The usual solution is to do both - keep the length and maintain the null terminator. It's not much extra work and means that you are always ready to pass the string to any function.
+
+**Source:** _stackoverflow.com_
+
+#### Q6: Mentions some pros and cons of immutable vs mutable Strings ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q7: Remove Invalid Parentheses ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q8: How to check if two Strings (words) are Anagrams? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q9: How to check if String is a Palindrome? ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q10: Find all the Permutations of a String ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q11: Reverse the ordering of words in a String ⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q12: What are Pascal Strings? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q13: What is Rope Data Structure is used for? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q14: Explain Knuth-Morris-Pratt (KMP) Algorithm in Plain English ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q15: Why is `char[]` preferred over String for passwords? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q16: Check for balanced parentheses in linear time using constant space ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q17: What are some advantages of Rope data structure? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q18: What are some limitations of Ropes? ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q19: Explain Boyer-Moore Algorithm with Example ⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q20: When to use Ropes over StringBuilders? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q21: When is Rabin-Karp more effective than KMP or Boyer-Moore? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q22: What are the main differences between the Knuth-Morris-Pratt search algorithm and the Boyer-Moore search algorithm? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q23: What's the rationale for `null` terminated strings? ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q24: Compare Strings vs Ropes from the Performance Analysis ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
+
+#### Q25: Find all the repeating substrings in a given String (or DNA chromosome sequence) ⭐⭐⭐⭐⭐
+Read answer on 👉 <a href='https://www.fullstack.cafe'>FullStack.Cafe</a>
