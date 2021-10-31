@@ -1,5 +1,5 @@
 
-![interview](https://github.com/amisha26/30-days-30-Projects/blob/master/img/algo.png)
+![interview](https://github.com/amisha26/30-days-30-Projects/blob/master/img/int.png)
 
 ## <a name='toc'>Table of Contents</a>
  * [Arrays](#Arrays)
