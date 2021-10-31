@@ -1,4 +1,6 @@
 
+![interview](https://github.com/amisha26/30-days-30-Projects/blob/master/img/algo.png)
+
 ## <a name='toc'>Table of Contents</a>
  * [Arrays](#Arrays)
  * [Backtracking](#Backtracking)
